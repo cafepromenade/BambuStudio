@@ -71,11 +71,11 @@ else
     fi
 fi
 
-# make sure ~/.config folder exists so Bambu Studio will start
+# make sure ~/.config folder exists so Bambu Hui will start
 if [ ! -d "$HOME/.config" ]; then
     mkdir -p "$HOME/.config"
 fi
 
 # Using su $USER -c will retain all the important ENV args when Bamboo Studio starts in a different shell
-# Continue with Bambu Studio using correct user, passing all arguments
+# Continue with Bambu Hui using correct user, passing all arguments
 exec su "$EXEC_USER" -c "/BambuStudio/build/package/bin/bambu-studio $*"

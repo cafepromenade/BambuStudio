@@ -2416,7 +2416,7 @@
                 },
                 {
                     "ecode": "0501401F",
-                    "intro": "Az engedélyezés lejárta. Ellenőrizze, hogy telefont vagy számítógépet hozzáféréssel rendelkezik-e az internethez, és az is fontos, hogy a Bambu Studio/Bambu Handy alkalmazás előtérben fussa a kötés folyamatánál."
+                    "intro": "Az engedélyezés lejárta. Ellenőrizze, hogy telefont vagy számítógépet hozzáféréssel rendelkezik-e az internethez, és az is fontos, hogy a Bambu Hui/Bambu Handy alkalmazás előtérben fussa a kötés folyamatánál."
                 },
                 {
                     "ecode": "05014021",
@@ -2492,7 +2492,7 @@
                 },
                 {
                     "ecode": "0500401F",
-                    "intro": "Az engedélyezés lejárt. Győződjön meg róla, hogy a telefonja vagy a számítógépe internet-hozzáféréssel rendelkezik, és biztosítsa, hogy a Bambu Studio/Bambu Handy alkalmazás a háttérben fusson, amikor a kötési művelet zajlik."
+                    "intro": "Az engedélyezés lejárt. Győződjön meg róla, hogy a telefonja vagy a számítógépe internet-hozzáféréssel rendelkezik, és biztosítsa, hogy a Bambu Hui/Bambu Handy alkalmazás a háttérben fusson, amikor a kötési művelet zajlik."
                 },
                 {
                     "ecode": "05004021",

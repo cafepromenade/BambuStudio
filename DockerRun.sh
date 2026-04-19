@@ -8,8 +8,8 @@ set -x
 #  or 
 #  -v $HOME/.Xauthority:/root/.Xauthority \
 #  You also need to run "xhost +" on your host system
-# Bambu Studio also require the parent directory for the configuration directory to be present to start
-#  to prevent your local machines's bambu studio config passed to docker container when you map your home directory, add:
+# Bambu Hui also require the parent directory for the configuration directory to be present to start
+#  to prevent your local machines's Bambu Hui config passed to docker container when you map your home directory, add:
 # -v :SHOME/.config/BambuStudio
 set -x
 docker run \

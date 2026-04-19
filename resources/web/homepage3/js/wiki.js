@@ -1,9 +1,9 @@
-var tabData = [{"id":"1083712862729134080","name":"打印机","sort":1,"childList":[{"id":13,"printerType":"Bambu Lab P2S","img":"https://cms.bblmw.cn/p2s_9c0d9f2ea2.png","sort":0},{"id":15,"printerType":"Bambu Lab H2C","img":"https://cms.bblmw.cn/Frame_112386648122222222_fa736665af.png","sort":1},{"id":10,"printerType":"Bambu Lab H2D","img":"https://cms.bblmw.cn/H2_D_707d0aad42.jpg","sort":2},{"id":12,"printerType":"Bambu Lab H2S","img":"https://cms.bblmw.cn/H2_S_3a0c3a1ca4.png","sort":3},{"id":8,"printerType":"Bambu Lab A1","img":"https://cms.bblmw.cn/Group_47969_3x_bec3e4fd04.jpg","sort":4},{"id":3,"printerType":"Bambu Lab A1 mini","img":"https://cms.bblmw.cn/large_Bambu_Lab_A1_mini_8a462ea54c_21e037b9d7_9bb73390d0.png","sort":5},{"id":6,"printerType":"Bambu Lab P1S","img":"https://cms.bblmw.cn/COVER_b084d22761.png","sort":6},{"id":9,"printerType":"Bambu Lab X1C","img":"https://cms.bblmw.cn/X1_C_f429ebb303.JPEG","sort":7}]},{"id":"1083712862729134081","name":"软件","sort":2,"childList":[{"id":5,"printerType":"Bambu Studio","img":"https://cms.bblmw.cn/20250530_190020_7b93deceed.png","sort":0},{"id":7,"printerType":"Bambu Handy","img":"https://cms.bblmw.cn/zh_5d9e7c4dbe.png","sort":1},{"id":11,"printerType":"Bambu Suite","img":"https://cms.bblmw.cn/suite_zh_b1b3e231f8.png","sort":2}]},{"id":"1083712862729134082","name":"创意工坊","sort":3,"childList":[{"id":18,"printerType":"彩色版画生成器","img":"https://cms.bblmw.cn/2_6f482b511d.png","sort":0},{"id":19,"printerType":"2026 新春模型生成器","img":"https://cms.bblmw.cn/2_ad2f55ef51.png","sort":1},{"id":20,"printerType":"印你手办生成器","img":"https://cms.bblmw.cn/printu_academy_cover1_c3c74c8a0f.png","sort":2}]},{"id":"1083712862729134083","name":"耗材","sort":4,"childList":[{"id":16,"printerType":"拓竹耗材","img":"https://cms.bblmw.cn/20251223_150528222222222_1dfb0c4dab.png","sort":0}]}];
+var tabData = [{"id":"1083712862729134080","name":"打印机","sort":1,"childList":[{"id":13,"printerType":"Bambu Lab P2S","img":"https://cms.bblmw.cn/p2s_9c0d9f2ea2.png","sort":0},{"id":15,"printerType":"Bambu Lab H2C","img":"https://cms.bblmw.cn/Frame_112386648122222222_fa736665af.png","sort":1},{"id":10,"printerType":"Bambu Lab H2D","img":"https://cms.bblmw.cn/H2_D_707d0aad42.jpg","sort":2},{"id":12,"printerType":"Bambu Lab H2S","img":"https://cms.bblmw.cn/H2_S_3a0c3a1ca4.png","sort":3},{"id":8,"printerType":"Bambu Lab A1","img":"https://cms.bblmw.cn/Group_47969_3x_bec3e4fd04.jpg","sort":4},{"id":3,"printerType":"Bambu Lab A1 mini","img":"https://cms.bblmw.cn/large_Bambu_Lab_A1_mini_8a462ea54c_21e037b9d7_9bb73390d0.png","sort":5},{"id":6,"printerType":"Bambu Lab P1S","img":"https://cms.bblmw.cn/COVER_b084d22761.png","sort":6},{"id":9,"printerType":"Bambu Lab X1C","img":"https://cms.bblmw.cn/X1_C_f429ebb303.JPEG","sort":7}]},{"id":"1083712862729134081","name":"软件","sort":2,"childList":[{"id":5,"printerType":"Bambu Hui","img":"https://cms.bblmw.cn/20250530_190020_7b93deceed.png","sort":0},{"id":7,"printerType":"Bambu Handy","img":"https://cms.bblmw.cn/zh_5d9e7c4dbe.png","sort":1},{"id":11,"printerType":"Bambu Suite","img":"https://cms.bblmw.cn/suite_zh_b1b3e231f8.png","sort":2}]},{"id":"1083712862729134082","name":"创意工坊","sort":3,"childList":[{"id":18,"printerType":"彩色版画生成器","img":"https://cms.bblmw.cn/2_6f482b511d.png","sort":0},{"id":19,"printerType":"2026 新春模型生成器","img":"https://cms.bblmw.cn/2_ad2f55ef51.png","sort":1},{"id":20,"printerType":"印你手办生成器","img":"https://cms.bblmw.cn/printu_academy_cover1_c3c74c8a0f.png","sort":2}]},{"id":"1083712862729134083","name":"耗材","sort":4,"childList":[{"id":16,"printerType":"拓竹耗材","img":"https://cms.bblmw.cn/20251223_150528222222222_1dfb0c4dab.png","sort":0}]}];
 
 var youtubeData = [
   {
     "id": "8TQCRVS72Us",
-    "title": "Intro: Overview of Bambu Studio"
+    "title": "Intro: Overview of Bambu Hui"
   },
   {
     "id": "AdHUVQiVeDI",
@@ -69,8 +69,8 @@ var topicData = [
     "zhcn-title": "快速开始",
     "children": [
       {
-        "title": "Bambu Studio Quick Start Guide",
-        "zhcn-title": "Bambu Studio 快速上手教程",
+        "title": "Bambu Hui Quick Start Guide",
+        "zhcn-title": "Bambu Hui 快速上手教程",
         "link": "software/bambu-studio/studio-quick-start"
       },
       {
@@ -79,13 +79,13 @@ var topicData = [
         "link": "software/bambu-studio/remote-control"
       },
       {
-        "title": "Use AMS on Bambu Studio",
-        "zhcn-title": "在 Bambu Studio 中使用 AMS",
+        "title": "Use AMS on Bambu Hui",
+        "zhcn-title": "在 Bambu Hui 中使用 AMS",
         "link": "software/bambu-studio/use-ams-on-bambu-studio"
       },
       {
-        "title": "Bambu Studio Multi Plate Printing Guide",
-        "zhcn-title": "Bambu Studio 多盘打印指南",
+        "title": "Bambu Hui Multi Plate Printing Guide",
+        "zhcn-title": "Bambu Hui 多盘打印指南",
         "link": "studio-handy/multi-plate-printing"
       }, 
     ]
@@ -146,7 +146,7 @@ var topicData = [
         "link": "software/bambu-studio/subtract-a-part"
       },
       {
-        "title": "Bambu Studio Modifier Operation Guide",
+        "title": "Bambu Hui Modifier Operation Guide",
         "zhcn-title": "Studio 修改器操作指南",
         "link": "software/bambu-studio/modifier"
       }
@@ -183,8 +183,8 @@ var topicData = [
     "zhcn-title": "打印设置",
     "children": [
       {
-        "title": "Special Slicing Mode in Bambu Studio",
-        "zhcn-title": "Bambu Studio 特殊切片模式",
+        "title": "Special Slicing Mode in Bambu Hui",
+        "zhcn-title": "Bambu Hui 特殊切片模式",
         "link": "software/bambu-studio/special-slicing-modes"
       },
       {
@@ -198,7 +198,7 @@ var topicData = [
         "link": "software/bambu-studio/Seam"
       },
       {
-        "title": "Support settings in Bambu Studio",
+        "title": "Support settings in Bambu Hui",
         "zhcn-title": "支撑耗材与支撑功能的介绍",
         "link": "software/bambu-studio/support"
       },
@@ -240,18 +240,18 @@ var topicData = [
         "link": "software/bambu-studio/faq/live-view"
       },
       {
-        "title": "Bambu Studio crashes/freezes troubleshooting guide",
-        "zhcn-title": "Bambu Studio 崩溃/冻结故障排除指南",
+        "title": "Bambu Hui crashes/freezes troubleshooting guide",
+        "zhcn-title": "Bambu Hui 崩溃/冻结故障排除指南",
         "link": "bambu-studio/troubleshoot/crash-freeze-issue"
       },
       {
-        "title": "Export Bambu Studio software log",
+        "title": "Export Bambu Hui software log",
         "zhcn-title": "导出Bambu PC软件日志",
         "link": "x1/troubleshooting/bambu-studio-log"
       },
       {
-        "title": "Bambu Studio failed to Connect Printer",
-        "zhcn-title": "Bambu Studio 连接打印机失败",
+        "title": "Bambu Hui failed to Connect Printer",
+        "zhcn-title": "Bambu Hui 连接打印机失败",
         "link": "software/bambu-studio/failed-to-connect-printer"
       },
     ]

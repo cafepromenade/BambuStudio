@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Bambu Studio\n"
+"Project-Id-Version: Bambu Hui\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-14 19:58+0800\n"
 "PO-Revision-Date: \n"
@@ -1949,11 +1949,11 @@ msgstr "Lettura del file di configurazione di BambuStudio non riuscita. Eseguire
 #, c-format, boost-format
 msgid ""
 "Failed to install preset files to %s.\n"
-"Please make sure Bambu Studio has permission to delete and write in this directory,\n"
+"Please make sure Bambu Hui has permission to delete and write in this directory,\n"
 "and it is not being occupied by the system or other applications."
 msgstr ""
 "Impossibile installare i file preset su. %s\n"
-"Assicurati che Bambu Studio sia autorizzato a cancellare e scrivere in questa directory,\n"
+"Assicurati che Bambu Hui sia autorizzato a cancellare e scrivere in questa directory,\n"
 "e non sia occupato dal sistema o da altre applicazioni."
 
 #, c-format, boost-format
@@ -1974,8 +1974,8 @@ msgstr "Caricamento configurazione"
 msgid "Click to download new version in default browser: %s"
 msgstr "Fai clic per scaricare la nuova versione nel browser predefinito: %s"
 
-msgid "The Bambu Studio needs an upgrade"
-msgstr "Bambu Studio necessita di aggiornamento"
+msgid "The Bambu Hui needs an upgrade"
+msgstr "Bambu Hui necessita di aggiornamento"
 
 msgid "This is the newest version."
 msgstr "Hai la versione più recente."
@@ -2028,20 +2028,20 @@ msgstr "non è consentito aprire un nuovo file progetto durante lo slicing!"
 msgid "Open Project"
 msgstr "Apri Progetto"
 
-msgid "The Bambu Studio version is too old to enable cloud service. Please download the latest version from Bambu Lab website."
-msgstr "La versione Bambu Studio è troppo vecchia per abilitare il servizio cloud. Scarica l'ultima versione dal sito Web di Bambu Lab."
+msgid "The Bambu Hui version is too old to enable cloud service. Please download the latest version from Bambu Lab website."
+msgstr "La versione Bambu Hui è troppo vecchia per abilitare il servizio cloud. Scarica l'ultima versione dal sito Web di Bambu Lab."
 
-msgid "Your software certificate has been revoked, please update Bambu Studio software."
-msgstr "Il tuo certificato software è stato revocato; aggiorna Bambu Studio."
+msgid "Your software certificate has been revoked, please update Bambu Hui software."
+msgstr "Il tuo certificato software è stato revocato; aggiorna Bambu Hui."
 
 msgid "Retrieving printer information, please try again later."
 msgstr "Per recuperare le informazioni sulla stampante, riprova più tardi."
 
-msgid "Please try updating Bambu Studio and then try again."
-msgstr "Prova ad aggiornare Bambu Studio e riprova."
+msgid "Please try updating Bambu Hui and then try again."
+msgstr "Prova ad aggiornare Bambu Hui e riprova."
 
-msgid "The certificate has expired. Please check the time settings or update Bambu Studio and try again."
-msgstr "Il certificato è scaduto. Controlla le impostazioni dell'ora o aggiorna Bambu Studio e riprova."
+msgid "The certificate has expired. Please check the time settings or update Bambu Hui and try again."
+msgstr "Il certificato è scaduto. Controlla le impostazioni dell'ora o aggiorna Bambu Hui e riprova."
 
 msgid "The certificate is no longer valid and the printing functions are unavailable. If you need printing. Please visit the official website at https://bambulab.com/ to download and update."
 msgstr "Il certificato non è più valido e le funzioni di stampa non sono disponibili. Se hai bisogno di stampare, visita il sito ufficiale https://bambulab.com/ per scaricare e aggiornare."
@@ -2106,8 +2106,8 @@ msgstr "Apri"
 msgid "Rename"
 msgstr "Rinomina"
 
-msgid "Bambu Studio GUI initialization failed"
-msgstr "Inizializzazione della GUI di Bambu Studio non riuscita"
+msgid "Bambu Hui GUI initialization failed"
+msgstr "Inizializzazione della GUI di Bambu Hui non riuscita"
 
 #, boost-format
 msgid "Fatal error, exception caught: %1%"
@@ -3392,14 +3392,14 @@ msgstr "Copyright"
 msgid "License"
 msgstr "Licenza"
 
-msgid "Bambu Studio is licensed under "
-msgstr "Bambu Studio è concesso in licenza sotto"
+msgid "Bambu Hui is licensed under "
+msgstr "Bambu Hui è concesso in licenza sotto"
 
 msgid "GNU Affero General Public License, version 3"
 msgstr "GNU Affero General Public License, versione 3"
 
-msgid "Bambu Studio is based on PrusaSlicer by Prusa Research, which is from Slic3r by Alessandro Ranellucci and the RepRap community"
-msgstr "Bambu Studio è basato su PrusaSlicer di Prusa Research, che si basa su Slic3r di Alessandro Ranellucci e sulla community RepRap"
+msgid "Bambu Hui is based on PrusaSlicer by Prusa Research, which is from Slic3r by Alessandro Ranellucci and the RepRap community"
+msgstr "Bambu Hui è basato su PrusaSlicer di Prusa Research, che si basa su Slic3r di Alessandro Ranellucci e sulla community RepRap"
 
 msgid "Libraries"
 msgstr "Librerie"
@@ -3411,8 +3411,8 @@ msgstr "Questo software utilizza componenti open source il cui copyright e altri
 msgid "About %s"
 msgstr "Informazioni su %s"
 
-msgid "Bambu Studio is based on PrusaSlicer by PrusaResearch and SuperSlicer by Merill(supermerill)."
-msgstr "Bambu Studio è basato su PrusaSlicer di PrusaResearch e SuperSlicer di Merill (supermerill)."
+msgid "Bambu Hui is based on PrusaSlicer by PrusaResearch and SuperSlicer by Merill(supermerill)."
+msgstr "Bambu Hui è basato su PrusaSlicer di PrusaResearch e SuperSlicer di Merill (supermerill)."
 
 msgid "PrusaSlicer is originally based on Slic3r by Alessandro Ranellucci."
 msgstr "PrusaSlicer originariamente basato su Slic3r di Alessandro Ranellucci."
@@ -3420,8 +3420,8 @@ msgstr "PrusaSlicer originariamente basato su Slic3r di Alessandro Ranellucci."
 msgid "Slic3r was created by Alessandro Ranellucci with the help of many other contributors."
 msgstr "Slic3r è stato creato da Alessandro Ranellucci con l'aiuto di molti altri collaboratori."
 
-msgid "Bambu Studio also referenced some ideas from Cura by Ultimaker."
-msgstr "Bambu Studio ha anche fatto riferimento ad alcune idee di Cura by Ultimaker."
+msgid "Bambu Hui also referenced some ideas from Cura by Ultimaker."
+msgstr "Bambu Hui ha anche fatto riferimento ad alcune idee di Cura by Ultimaker."
 
 msgid "There many parts of the software that come from community contributions, so we're unable to list them one-by-one, and instead, they'll be attributed in the corresponding code comments."
 msgstr "Molte parti del software provengono dai contributi della community, quindi non possiamo elencarle una per una, ma verranno invece citate nei commenti del codice corrispondente."
@@ -5913,11 +5913,11 @@ msgstr "Scaricare strumenti telecamera virtuale"
 
 msgid ""
 "Another virtual camera is running.\n"
-"Bambu Studio supports only a single virtual camera.\n"
+"Bambu Hui supports only a single virtual camera.\n"
 "Do you want to stop this virtual camera?"
 msgstr ""
 "È in funzione un'altra telecamera virtuale.\n"
-"Bambu Studio supporta solo una singola telecamera virtuale.\n"
+"Bambu Hui supporta solo una singola telecamera virtuale.\n"
 "Si desidera interrompere questa telecamera virtuale?"
 
 #, c-format, boost-format
@@ -5930,8 +5930,8 @@ msgstr "Rete non raggiungibile"
 msgid "Information"
 msgstr "Informazione"
 
-msgid "The live streaming feature relies on Bambu Studio to run,and the stream will end some time after the app is closed."
-msgstr "La funzionalità di live streaming si basa su Bambu Studio per funzionare, e lo streaming terminerà poco dopo la chiusura dell'app."
+msgid "The live streaming feature relies on Bambu Hui to run,and the stream will end some time after the app is closed."
+msgstr "La funzionalità di live streaming si basa su Bambu Hui per funzionare, e lo streaming terminerà poco dopo la chiusura dell'app."
 
 msgid "Printer Preview"
 msgstr "Anteprima Stampante"
@@ -6042,7 +6042,7 @@ msgstr "Impossibile recuperare le informazioni del modello dalla stampante."
 msgid "Failed to parse model information."
 msgstr "Impossibile analizzare le informazioni del modello"
 
-msgid "The .gcode.3mf file contains no G-code data.Please slice it whth Bambu Studio and export a new .gcode.3mf file."
+msgid "The .gcode.3mf file contains no G-code data.Please slice it whth Bambu Hui and export a new .gcode.3mf file."
 msgstr "Il file .gcode.3mf non contiene dati G-code. Elaboralo in BambuStudio ed esportalo in un nuovo file .gcode.3mf."
 
 #, c-format, boost-format
@@ -6631,20 +6631,20 @@ msgstr "Salta"
 msgid "Newer 3mf version"
 msgstr "Versione 3mf più recente"
 
-msgid "The 3mf file version is in Beta and it is newer than the current Bambu Studio version."
-msgstr "La versione del file 3mf è in versione beta ed è più recente dell'attuale versione di Bambu Studio."
+msgid "The 3mf file version is in Beta and it is newer than the current Bambu Hui version."
+msgstr "La versione del file 3mf è in versione beta ed è più recente dell'attuale versione di Bambu Hui."
 
-msgid "If you would like to try Bambu Studio Beta, you may click to"
-msgstr "Se desideri provare Bambu Studio Beta, puoi fare clic su"
+msgid "If you would like to try Bambu Hui Beta, you may click to"
+msgstr "Se desideri provare Bambu Hui Beta, puoi fare clic su"
 
 msgid "Download Beta Version"
 msgstr "Scarica la versione beta"
 
-msgid "The 3mf file version is newer than the current Bambu Studio version."
-msgstr "La versione del file 3mf è più recente dell'attuale versione di Bambu Studio."
+msgid "The 3mf file version is newer than the current Bambu Hui version."
+msgstr "La versione del file 3mf è più recente dell'attuale versione di Bambu Hui."
 
-msgid "Update your Bambu Studio could enable all functionality in the 3mf file."
-msgstr "L'aggiornamento di Bambu Studio potrebbe abilitare tutte le funzionalità del file 3mf."
+msgid "Update your Bambu Hui could enable all functionality in the 3mf file."
+msgstr "L'aggiornamento di Bambu Hui potrebbe abilitare tutte le funzionalità del file 3mf."
 
 msgid "Current Version: "
 msgstr "Versione corrente:"
@@ -6945,8 +6945,8 @@ msgstr "Recupero automatico perdita passi"
 msgid "Store Sent Files on External Storage"
 msgstr "Salva file inviati su dispositivo esterno"
 
-msgid "Save the printing files initiated from Bambu Studio, Bambu Handy and MakerWorld on External Storage"
-msgstr "Salva i file di stampa avviati da Bambu Studio, Bambu Handy e MakerWorld su un dispositivo esterno."
+msgid "Save the printing files initiated from Bambu Hui, Bambu Handy and MakerWorld on External Storage"
+msgstr "Salva i file di stampa avviati da Bambu Hui, Bambu Handy e MakerWorld su un dispositivo esterno."
 
 msgid "Enable notification sounds"
 msgstr "Attiva i suoni delle notifiche"
@@ -7262,10 +7262,10 @@ msgstr "Sincronizza filamenti con AMS"
 
 msgid ""
 "There are some unknown or uncompatible filaments mapped to generic preset.\n"
-"Please update Bambu Studio or restart Bambu Studio to check if there is an update to system presets."
+"Please update Bambu Hui or restart Bambu Hui to check if there is an update to system presets."
 msgstr ""
 "Alcuni filamenti sconosciuti o non compatibili sono associati a un preset generico.\n"
-"Aggiorna Bambu Studio o riavvialo per verificare se sono disponibili aggiornamenti ai preset di sistema."
+"Aggiorna Bambu Hui o riavvialo per verificare se sono disponibili aggiornamenti ai preset di sistema."
 
 msgid "Filament type and color information have been synchronized, but slot information is not included."
 msgstr "Le informazioni sul tipo e colore del filamento sono state sincronizzate, ma i dati dello slot non sono inclusi."
@@ -7336,8 +7336,8 @@ msgstr "Carica 3mf"
 msgid "The Config can not be loaded."
 msgstr "La configurazione non può essere caricata."
 
-msgid "Due to the lower version of Bambu Studio, this 3mf file cannot be fully loaded. Please update Bambu Studio to the latest version"
-msgstr "A causa della versione precedente di Bambu Studio, questo file 3mf non può essere caricato completamente. Aggiorna Bambu Studio alla versione più recente"
+msgid "Due to the lower version of Bambu Hui, this 3mf file cannot be fully loaded. Please update Bambu Hui to the latest version"
+msgstr "A causa della versione precedente di Bambu Hui, questo file 3mf non può essere caricato completamente. Aggiorna Bambu Hui alla versione più recente"
 
 msgid "Found following keys unrecognized:\n"
 msgstr "Trovate le seguenti chiavi non riconosciute:\n"
@@ -7345,8 +7345,8 @@ msgstr "Trovate le seguenti chiavi non riconosciute:\n"
 msgid "The 3mf is not from Bambu Lab, load geometry data and color data only."
 msgstr "Il 3mf non proviene da Bambu Lab, caricati solo i dati di geometria e di colore."
 
-msgid "The 3mf is generated by old Bambu Studio, load geometry data only."
-msgstr "Il 3mf è generato da vecchie versioni Bambu Studio, caricate solo le geometrie."
+msgid "The 3mf is generated by old Bambu Hui, load geometry data only."
+msgstr "Il 3mf è generato da vecchie versioni Bambu Hui, caricate solo le geometrie."
 
 msgid "Invalid values found in the 3mf:"
 msgstr "Valori non validi trovati in 3mf:"
@@ -7839,8 +7839,8 @@ msgstr "Download fallito; errore dimensione file."
 msgid "Project downloaded %d%%"
 msgstr "Progetto scaricato %d%%"
 
-msgid "Importing to Bambu Studio failed. Please download the file and manually import it."
-msgstr "L'importazione in Bambu Studio non è riuscita. Scarica il file e importalo manualmente."
+msgid "Importing to Bambu Hui failed. Please download the file and manually import it."
+msgstr "L'importazione in Bambu Hui non è riuscita. Scarica il file e importalo manualmente."
 
 msgid "The current settings produce a model that is too large. Please narrow the range or increase the step size. (Model size is proportional to (End - Start) / Step size.)"
 msgstr "Le impostazioni correnti producono un modello troppo grande. Restringi l'intervallo o aumenta la dimensione del passo. (La dimensione del modello è proporzionale a (Fine - Inizio) / Dimensione del passo.)"
@@ -8062,8 +8062,8 @@ msgstr "Triangoli: %1%\n"
 msgid " (Repair)"
 msgstr "(Ripara)"
 
-msgid "To repair the model, please use a third-party tool before importing it into Bambu Studio, such as "
-msgstr "Per riparare il modello, per favore utilizza uno strumento di terze parti prima di importarlo in Bambu Studio, come"
+msgid "To repair the model, please use a third-party tool before importing it into Bambu Hui, such as "
+msgstr "Per riparare il modello, per favore utilizza uno strumento di terze parti prima di importarlo in Bambu Hui, come"
 
 #, c-format, boost-format
 msgid "Plate% d: %s is not suggested to be used to print filament %s(%s). If you still want to do this printing, please set this filament's bed temperature to non zero."
@@ -8181,14 +8181,14 @@ msgstr "Usa il formato orario a 12 ore"
 msgid "Display time in 12-hour format with AM/PM instead of 24-hour format"
 msgstr "Visualizza l'orario in formato 12 ore con AM/PM invece del formato 24 ore"
 
-msgid "Keep only one Bambu Studio instance"
-msgstr "Mantieni una sola istanza di Bambu Studio"
+msgid "Keep only one Bambu Hui instance"
+msgstr "Mantieni una sola istanza di Bambu Hui"
 
 msgid "On OSX there is always only one instance of app running by default. However it is allowed to run multiple instances of same app from the command line. In such case this settings will allow only one instance."
 msgstr "Su OSX per impostazione predefinita c'è sempre una sola istanza dell'app in esecuzione. Tuttavia è consentito eseguire più istanze della stessa app da riga di comando. In tal caso, questa impostazione consentirà una sola istanza."
 
-msgid "If this is enabled, when starting Bambu Studio and another instance of the same Bambu Studio is already running, that instance will be reactivated instead."
-msgstr "Se questa opzione è attivata, quando si avvia Bambu Studio e un'altra istanza è già in esecuzione quest'ultima verrà riattivata."
+msgid "If this is enabled, when starting Bambu Hui and another instance of the same Bambu Hui is already running, that instance will be reactivated instead."
+msgstr "Se questa opzione è attivata, quando si avvia Bambu Hui e un'altra istanza è già in esecuzione quest'ultima verrà riattivata."
 
 msgid "Automatically transfer modified value when switching process and filament presets"
 msgstr "Trasferimento automatico del valore modificato quando si cambia il processo e il preset del filamento"
@@ -8328,35 +8328,35 @@ msgstr "Preset"
 msgid "Auto sync user presets(Printer/Filament/Process)"
 msgstr "Sincronizzazione automatica preset utente (stampante/filamento/processo)"
 
-msgid "If enabled, auto sync user presets with cloud after Bambu Studio startup or presets modified."
-msgstr "Se abilitata, sincronizza automaticamente i preset utente con il cloud dopo l'avvio di Bambu Studio o la modifica dei preset."
+msgid "If enabled, auto sync user presets with cloud after Bambu Hui startup or presets modified."
+msgstr "Se abilitata, sincronizza automaticamente i preset utente con il cloud dopo l'avvio di Bambu Hui o la modifica dei preset."
 
 msgid "Auto check for system presets updates"
 msgstr "Verifica automatica aggiornamenti preset di sistema"
 
-msgid "If enabled, auto check whether there are system presets updates after Bambu Studio startup."
-msgstr "Se abilitato, controlla automaticamente se ci sono aggiornamenti dei preset di sistema dopo l'avvio di Bambu Studio."
+msgid "If enabled, auto check whether there are system presets updates after Bambu Hui startup."
+msgstr "Se abilitato, controlla automaticamente se ci sono aggiornamenti dei preset di sistema dopo l'avvio di Bambu Hui."
 
-msgid "Associate Files To Bambu Studio"
-msgstr "Associa i file a Bambu Studio"
+msgid "Associate Files To Bambu Hui"
+msgstr "Associa i file a Bambu Hui"
 
-msgid "Associate .3mf files to Bambu Studio"
-msgstr "Associa i file.3mf a Bambu Studio"
+msgid "Associate .3mf files to Bambu Hui"
+msgstr "Associa i file.3mf a Bambu Hui"
 
-msgid "If enabled, sets Bambu Studio as default application to open .3mf files"
-msgstr "Se abilitato, imposta Bambu Studio come applicazione predefinita per aprire i file .3mf"
+msgid "If enabled, sets Bambu Hui as default application to open .3mf files"
+msgstr "Se abilitato, imposta Bambu Hui come applicazione predefinita per aprire i file .3mf"
 
-msgid "Associate .stl files to Bambu Studio"
-msgstr "Associa i file.stl a Bambu Studio"
+msgid "Associate .stl files to Bambu Hui"
+msgstr "Associa i file.stl a Bambu Hui"
 
-msgid "If enabled, sets Bambu Studio as default application to open .stl files"
-msgstr "Se abilitato, imposta Bambu Studio come applicazione predefinita per aprire i file .stl"
+msgid "If enabled, sets Bambu Hui as default application to open .stl files"
+msgstr "Se abilitato, imposta Bambu Hui come applicazione predefinita per aprire i file .stl"
 
-msgid "Associate .step/.stp files to Bambu Studio"
-msgstr "Associa i file.step/.stp a Bambu Studio"
+msgid "Associate .step/.stp files to Bambu Hui"
+msgstr "Associa i file.step/.stp a Bambu Hui"
 
-msgid "If enabled, sets Bambu Studio as default application to open .step files"
-msgstr "Se abilitato, imposta Bambu Studio come applicazione predefinita per aprire i file .step"
+msgid "If enabled, sets Bambu Hui as default application to open .step files"
+msgstr "Se abilitato, imposta Bambu Hui come applicazione predefinita per aprire i file .step"
 
 msgid "Online Models"
 msgstr "Modelli Online"
@@ -9202,8 +9202,8 @@ msgstr "La stampante selezionata non è compatibile con i preset di stampa scelt
 msgid "Storage needs to be inserted before send to printer."
 msgstr "Prima di inviare alla stampante è necessario inserire la memoria."
 
-msgid "The printer is required to be in the same LAN as Bambu Studio."
-msgstr "La stampante deve essere nella stessa LAN di Bambu Studio."
+msgid "The printer is required to be in the same LAN as Bambu Hui."
+msgstr "La stampante deve essere nella stessa LAN di Bambu Hui."
 
 msgid "The printer does not support sending to printer storage."
 msgstr "La stampante non supporta l'invio alla memoria della stampante."
@@ -9275,7 +9275,7 @@ msgstr "Confermare sullo schermo della stampante"
 msgid ""
 "Login failed. Please check the following items:\n"
 "1. Ensure the Pin code is entered correctly.\n"
-"2. Confirm that the region settings of the printer and Bambu Studio are consistent."
+"2. Confirm that the region settings of the printer and Bambu Hui are consistent."
 msgstr ""
 "Accesso non riuscito. Controlla quanto segue:\n"
 "1. Assicurati che il Pin code sia stato inserito correttamente.\n"
@@ -10278,8 +10278,8 @@ msgstr ""
 msgid "Extruder of Bowden type does not support 0.2 diameter nozzle. We can only proceed with single-head printing."
 msgstr "L'estrusore di tipo Bowden non supporta il nozzle da 0,2 mm di diametro. È possibile procedere solo con la stampa a testa singola."
 
-msgid "Studio would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Bambu Studio > Preferences"
-msgstr "Studio ricalcola i volumi di spurgo ogni volta che il colore o il filamento cambia. Puoi disattivare il calcolo automatico in Bambu Studio > Preferenze"
+msgid "Studio would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Bambu Hui > Preferences"
+msgstr "Studio ricalcola i volumi di spurgo ogni volta che il colore o il filamento cambia. Puoi disattivare il calcolo automatico in Bambu Hui > Preferenze"
 
 msgid "Flushing volume (mm³) for each filament pair."
 msgstr "Volume di spurgo (mm³) per ogni coppia di filamento."
@@ -10582,15 +10582,15 @@ msgstr "Versione %s informazioni aggiornate:"
 msgid "Network plug-in update"
 msgstr "Aggiornamento del plug-in di rete"
 
-msgid "Click OK to update the Network plug-in when Bambu Studio launches next time."
-msgstr "Fai clic su OK per aggiornare il plug-in di rete al successivo avvio di Bambu Studio."
+msgid "Click OK to update the Network plug-in when Bambu Hui launches next time."
+msgstr "Fai clic su OK per aggiornare il plug-in di rete al successivo avvio di Bambu Hui."
 
 #, c-format, boost-format
 msgid "A new Network plug-in(%s) available, Do you want to install it?"
 msgstr "È disponibile un nuovo plug-in di rete (%s), vuoi installarlo?"
 
-msgid "New version of Bambu Studio"
-msgstr "Nuova versione di Bambu Studio"
+msgid "New version of Bambu Hui"
+msgstr "Nuova versione di Bambu Hui"
 
 msgid "Skip this Version"
 msgstr "Salta questa versione"
@@ -10607,8 +10607,8 @@ msgstr "Collega la stampante tramite IP e codice d'accesso"
 msgid "Try the following methods to update the connection parameters and reconnect to the printer."
 msgstr "Prova i seguenti metodi per aggiornare i parametri di connessione e riconnetterti alla stampante."
 
-msgid "1. Please confirm Bambu Studio and your printer are in the same LAN."
-msgstr "1. Verifica che Bambu Studio e la stampante siano nella stessa LAN."
+msgid "1. Please confirm Bambu Hui and your printer are in the same LAN."
+msgstr "1. Verifica che Bambu Hui e la stampante siano nella stessa LAN."
 
 msgid "2. If the IP and Access Code below are different from the actual values on your printer, please correct them."
 msgstr "2. Se l'indirizzo IP e il codice di accesso riportati di seguito sono diversi dai valori effettivi della stampante, correggili."
@@ -11238,7 +11238,7 @@ msgid "An important update was detected and needs to be run before printing can 
 msgstr "È stato rilevato un aggiornamento importante che deve essere eseguito prima che la stampa possa continuare. Vuoi effettuare l'aggiornamento adesso? Puoi effettuare l'aggiornamento anche in un secondo momento da \"Aggiorna firmware\"."
 
 msgid "The firmware version is abnormal. Repairing and updating are required before printing. Do you want to update now? You can also update later on printer or update next time starting the studio."
-msgstr "La versione del firmware è anomala. Prima di stampare, è necessario eseguire la riparazione e l'aggiornamento. Si desidera aggiornare ora? È anche possibile aggiornare in un secondo momento dalla stampante o aggiornare al prossimo avvio di Bambu Studio."
+msgstr "La versione del firmware è anomala. Prima di stampare, è necessario eseguire la riparazione e l'aggiornamento. Si desidera aggiornare ora? È anche possibile aggiornare in un secondo momento dalla stampante o aggiornare al prossimo avvio di Bambu Hui."
 
 msgid "Extension Board"
 msgstr "Scheda di estensione"
@@ -17025,10 +17025,10 @@ msgstr ""
 #: resources/data/hints.ini: [hint:How to use keyboard shortcuts]
 msgid ""
 "How to use keyboard shortcuts\n"
-"Did you know that Bambu Studio offers a wide range of keyboard shortcuts and 3D scene operations."
+"Did you know that Bambu Hui offers a wide range of keyboard shortcuts and 3D scene operations."
 msgstr ""
 "Come usare le scorciatoie da tastiera\n"
-"Sapevi che Bambu Studio offre un'ampia gamma di scorciatoie da tastiera e operazioni sulle scene 3D."
+"Sapevi che Bambu Hui offre un'ampia gamma di scorciatoie da tastiera e operazioni sulle scene 3D."
 
 #: resources/data/hints.ini: [hint:Cut Tool]
 msgid ""
@@ -17113,20 +17113,20 @@ msgstr ""
 #: resources/data/hints.ini: [hint:Subtract a Part]
 msgid ""
 "Subtract a Part\n"
-"Did you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Bambu Studio. Read more in the documentation."
+"Did you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Bambu Hui. Read more in the documentation."
 msgstr ""
 "Sottrarre una parte\n"
-"Sapevi che è possibile sottrarre una mesh da un'altra utilizzando il modificatore Parte negativa? In questo modo è possibile, ad esempio, creare fori facilmente ridimensionabili direttamente in Bambu Studio. Per saperne di più, consulta la documentazione."
+"Sapevi che è possibile sottrarre una mesh da un'altra utilizzando il modificatore Parte negativa? In questo modo è possibile, ad esempio, creare fori facilmente ridimensionabili direttamente in Bambu Hui. Per saperne di più, consulta la documentazione."
 
 #: resources/data/hints.ini: [hint:STEP]
 msgid ""
 "STEP\n"
 "Did you know that you can improve your print quality by slicing a STEP file instead of an STL?\n"
-"Bambu Studio supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
+"Bambu Hui supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
 msgstr ""
 "STEP\n"
 "Sapevi che puoi migliorare la qualità di stampa elaborando un file STEP anziché un file STL?\n"
-"Bambu Studio supporta la suddivisione in sezioni di file STEP, fornendo risultati più fluidi rispetto a un STL a risoluzione inferiore. Provalo!"
+"Bambu Hui supporta la suddivisione in sezioni di file STEP, fornendo risultati più fluidi rispetto a un STL a risoluzione inferiore. Provalo!"
 
 #: resources/data/hints.ini: [hint:Z seam location]
 msgid ""
@@ -18491,8 +18491,8 @@ msgstr ""
 #~ msgid "Camera Angle - Right side"
 #~ msgstr "Angolo della camera - Lato destro"
 
-#~ msgid "Prefer to use high performance GPU (Effective after manual restart Bambu Studio)"
-#~ msgstr "Preferisci utilizzo GPU ad alte prestazioni (effettivo dopo il riavvio manuale di Bambu Studio)."
+#~ msgid "Prefer to use high performance GPU (Effective after manual restart Bambu Hui)"
+#~ msgstr "Preferisci utilizzo GPU ad alte prestazioni (effettivo dopo il riavvio manuale di Bambu Hui)."
 
 #~ msgid "If enabled, this feature can improve rendering performance to some extent. However, it may cause flickering on multi-GPU systems, so it is recommended to disable it."
 #~ msgstr "Se abilitata, questa funzione può migliorare le prestazioni di rendering in una certa misura. Tuttavia, potrebbe causare sfarfallii su sistemi con più GPU, quindi si consiglia di disabilitarla."
@@ -18529,8 +18529,8 @@ msgstr ""
 #~ msgid "External Spool"
 #~ msgstr "Bobina esterna"
 
-#~ msgid "There are some unknown or uncompatible filaments mapped to generic preset. Please update Bambu Studio or restart Bambu Studio to check if there is an update to system presets."
-#~ msgstr "Ci sono alcuni filamenti sconosciuti o incompatibili mappati su preset generici. Aggiorna Bambu Studio o riavvia Bambu Studio per verificare se è disponibile un aggiornamento dei preset di sistema."
+#~ msgid "There are some unknown or uncompatible filaments mapped to generic preset. Please update Bambu Hui or restart Bambu Hui to check if there is an update to system presets."
+#~ msgstr "Ci sono alcuni filamenti sconosciuti o incompatibili mappati su preset generici. Aggiorna Bambu Hui o riavvia Bambu Hui per verificare se è disponibile un aggiornamento dei preset di sistema."
 
 #, c-format, boost-format
 #~ msgid "Printing high temperature material(%s material) with %s may cause nozzle damage"
@@ -18853,8 +18853,8 @@ msgstr ""
 #~ msgid "Cool Plate / PLA Plate"
 #~ msgstr "Cool Plate / PLA Plate"
 
-#~ msgid "Step 1, please confirm Bambu Studio and your printer are in the same LAN."
-#~ msgstr "Step 1, conferma che Bambu Studio e la tua stampante siano nella stessa LAN."
+#~ msgid "Step 1, please confirm Bambu Hui and your printer are in the same LAN."
+#~ msgstr "Step 1, conferma che Bambu Hui e la tua stampante siano nella stessa LAN."
 
 #~ msgid "Step 2, if the IP and Access Code below are different from the actual values on your printer, please correct them."
 #~ msgstr "Step 2, se l'IP e il codice di accesso riportati di seguito sono diversi dai valori effettivi sulla stampante, correggili."
@@ -18922,8 +18922,8 @@ msgstr ""
 #~ msgid "Stopped."
 #~ msgstr "Interrotto."
 
-#~ msgid "\"Fix Model\" feature is currently only on Windows. Please repair the model on Bambu Studio(windows) or CAD softwares."
-#~ msgstr "La funzione \"Ripara modello\" è attualmente disponibile solo su Windows. Si prega di riparare il modello su Bambu Studio (Windows) o su software CAD."
+#~ msgid "\"Fix Model\" feature is currently only on Windows. Please repair the model on Bambu Hui(windows) or CAD softwares."
+#~ msgstr "La funzione \"Ripara modello\" è attualmente disponibile solo su Windows. Si prega di riparare il modello su Bambu Hui (Windows) o su software CAD."
 
 #~ msgid ""
 #~ "We have added an experimental style \"Tree Slim\" that features smaller support volume but weaker strength.\n"
@@ -19177,16 +19177,16 @@ msgstr ""
 #~ msgstr "Assembla le parti selezionate in un'unica parte"
 
 #~ msgid "Associate .3mf files to BambuStudio"
-#~ msgstr "Associa i file .3mf a Bambu Studio"
+#~ msgstr "Associa i file .3mf a Bambu Hui"
 
 #~ msgid "Associate .step/.stp files to BambuStudio"
-#~ msgstr "Associa i file .step/.stp a Bambu Studio"
+#~ msgstr "Associa i file .step/.stp a Bambu Hui"
 
 #~ msgid "Associate .stl files to BambuStudio"
-#~ msgstr "Associa i file .stl a Bambu Studio"
+#~ msgstr "Associa i file .stl a Bambu Hui"
 
 #~ msgid "Associate files to BambuStudio"
-#~ msgstr "Associa i file a Bambu Studio"
+#~ msgstr "Associa i file a Bambu Hui"
 
 #~ msgid "Auto Bed Type"
 #~ msgstr "Tipo piano automatico"
@@ -19273,8 +19273,8 @@ msgstr ""
 #~ msgid "Can't connect to the printer"
 #~ msgstr "Impossibile connettersi alla stampante"
 
-#~ msgid "Cannot detect the LAN IP address of %s. Are %s and Bambu Studio in the same LAN?"
-#~ msgstr "Impossibile rilevare l'indirizzo IP LAN di %s. %s e Bambu Studio sono nella stessa LAN?"
+#~ msgid "Cannot detect the LAN IP address of %s. Are %s and Bambu Hui in the same LAN?"
+#~ msgstr "Impossibile rilevare l'indirizzo IP LAN di %s. %s e Bambu Hui sono nella stessa LAN?"
 
 #~ msgid "Check cloud service status"
 #~ msgstr "Verifica lo stato del servizio cloud"
@@ -20414,8 +20414,8 @@ msgstr ""
 #~ msgid "Storage unavailable, insert SD card."
 #~ msgstr "Spazio di archiviazione non disponibile, inserire scheda SD."
 
-#~ msgid "Studio would re-calculate your flushing volumes everytime the filaments color changed. You could disable the auto-calculate in Bambu Studio > Preferences"
-#~ msgstr "Studio ricalcolerà i volumi di spurgo ogni volta che il colore dei filamenti cambia. Puoi disabilitare il calcolo automatico in Bambu Studio > Preferenze"
+#~ msgid "Studio would re-calculate your flushing volumes everytime the filaments color changed. You could disable the auto-calculate in Bambu Hui > Preferences"
+#~ msgstr "Studio ricalcolerà i volumi di spurgo ogni volta che il colore dei filamenti cambia. Puoi disabilitare il calcolo automatico in Bambu Hui > Preferenze"
 
 #~ msgid ""
 #~ "Style and shape of the support. For normal support, projecting the supports into a regular grid will create more stable supports (default), while snug support towers will save material and reduce object scarring.\n"
@@ -20556,8 +20556,8 @@ msgstr ""
 #~ msgid "The P1P printer does not support smooth timelapse, use traditional timelapse instead."
 #~ msgstr "La stampante P1P non supporta il timelapse fluido; utilizza invece il timelapse tradizionale."
 
-#~ msgid "The .gcode.3mf file contains no G-code data.Please slice it whthBambu Studio and export a new .gcode.3mf file."
-#~ msgstr "Il file .gcode.3mf non contiene dati G-code. Elaboralo con Bambu Studio ed esporta un nuovo file .gcode.3mf."
+#~ msgid "The .gcode.3mf file contains no G-code data.Please slice it whthBambu Hui and export a new .gcode.3mf file."
+#~ msgstr "Il file .gcode.3mf non contiene dati G-code. Elaboralo con Bambu Hui ed esporta un nuovo file .gcode.3mf."
 
 #~ msgid "The average diatance between the random points introducded on each line segment"
 #~ msgstr "La distanza media tra i punti casuali introdotti su ogni segmento di linea"
@@ -20619,8 +20619,8 @@ msgstr ""
 #~ msgid "The target object contains only one part and can not be splited."
 #~ msgstr "L'oggetto di destinazione contiene solo una parte e non può essere diviso."
 
-#~ msgid "The version of Bambu studio is too low and needs to be updated to the latest version before it can be used normally"
-#~ msgstr "La versione Bambu Studio è obsoleta, devi aggiornarla all'ultima versione prima di poterla utilizzare normalmente"
+#~ msgid "The version of Bambu Hui is too low and needs to be updated to the latest version before it can be used normally"
+#~ msgstr "La versione Bambu Hui è obsoleta, devi aggiornarla all'ultima versione prima di poterla utilizzare normalmente"
 
 #~ msgid ""
 #~ "There are currently no identical spare consumables available, and automatic replenishment is currently not possible. \n"
@@ -20629,8 +20629,8 @@ msgstr ""
 #~ "Al momento non sono disponibili materiali di consumo identici, pertanto attualmente il rifornimento automatico non è possibile.\n"
 #~ "(Attualmente supportiamo la fornitura automatica di materiali di consumo con la stessa marca, tipo di materiale e colore.)"
 
-#~ msgid "There are some unknown filaments mapped to generic preset. Please update Bambu Studio or restart Bambu Studio to check if there is an update to system presets."
-#~ msgstr "Esistono alcuni filamenti sconosciuti mappati su preset generici. Aggiorna Bambu Studio o riavvia Bambu Studio per verificare se è disponibile un aggiornamento ai preset di sistema."
+#~ msgid "There are some unknown filaments mapped to generic preset. Please update Bambu Hui or restart Bambu Hui to check if there is an update to system presets."
+#~ msgstr "Esistono alcuni filamenti sconosciuti mappati su preset generici. Aggiorna Bambu Hui o riavvia Bambu Hui per verificare se è disponibile un aggiornamento ai preset di sistema."
 
 #~ msgid "There is already a historical calibration result with the same name: %s. Only one of the results with the same name is saved. Are you sure you want to overrides the historical result?"
 #~ msgstr "Esiste già un risultato di calibrazione precedente con lo stesso nome:%s. Può essere salvato un solo risultato con lo stesso nome. Sei sicuro di voler sovrascrivere il risultato precedente?"
@@ -20679,11 +20679,11 @@ msgstr ""
 #~ msgid ""
 #~ "This slicer file version %s is newer than %s's version.\n"
 #~ "\n"
-#~ "Would you like to update your Bambu Studio software to enable all functionality in this slicer file?"
+#~ "Would you like to update your Bambu Hui software to enable all functionality in this slicer file?"
 #~ msgstr ""
 #~ "Questa versione del file slicer %s è più recente della versione di %s.\n"
 #~ "\n"
-#~ "Vuoi aggiornare il tuo software Bambu Studio per abilitare tutte le funzionalità di questo file slicer?"
+#~ "Vuoi aggiornare il tuo software Bambu Hui per abilitare tutte le funzionalità di questo file slicer?"
 
 #~ msgid "This slicer file version %s is newer than %s's version:"
 #~ msgstr "Questa versione del file slicer %s è più recente della versione di %s:"
@@ -20812,8 +20812,8 @@ msgstr ""
 #~ msgid "Whenever the retraction is done, the nozzle is lifted a little to create clearance between nozzle and the print. It prevents nozzle from hitting the print when travel move. Using spiral line to lift z can prevent stringing"
 #~ msgstr "Ogni volta che viene effettuata la retrazione, il nozzle viene leggermente sollevato per creare spazio tra nozzle e stampa. Impedisce cheil nozzle colpisca la stampa durante lo spostamento. L'uso di una linea a spirale per sollevare z può impedire lo stringing"
 
-#~ msgid "Would you like to update your Bambu Studio software to enable all functionality in this slicer file?\n"
-#~ msgstr "Vuoi aggiornare il tuo software Bambu Studio per abilitare tutte le funzionalità di questo file slicer?\n"
+#~ msgid "Would you like to update your Bambu Hui software to enable all functionality in this slicer file?\n"
+#~ msgstr "Vuoi aggiornare il tuo software Bambu Hui per abilitare tutte le funzionalità di questo file slicer?\n"
 
 #~ msgid "Wrong Access code"
 #~ msgstr "Codice di accesso errato"
@@ -20975,8 +20975,8 @@ msgstr ""
 #~ msgid "tree"
 #~ msgstr "albero"
 
-#~ msgid "you can always update Bambu Studio at your convenience. The slicer file will now be loaded without full functionality."
-#~ msgstr "Puoi sempre aggiornare Bambu Studio a tuo piacimento. Il file slicer verrà ora caricato senza funzionalità complete."
+#~ msgid "you can always update Bambu Hui at your convenience. The slicer file will now be loaded without full functionality."
+#~ msgstr "Puoi sempre aggiornare Bambu Hui a tuo piacimento. Il file slicer verrà ora caricato senza funzionalità complete."
 
 #~ msgid "⌘+Any arrow"
 #~ msgstr "⌘+Freccia qualsiasi"

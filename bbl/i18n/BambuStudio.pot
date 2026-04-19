@@ -1936,7 +1936,7 @@ msgstr ""
 #, possible-c-format, possible-boost-format
 msgid ""
 "Failed to install preset files to %s.\n"
-"Please make sure Bambu Studio has permission to delete and write in this directory,\n"
+"Please make sure Bambu Hui has permission to delete and write in this directory,\n"
 "and it is not being occupied by the system or other applications."
 msgstr ""
 
@@ -1956,7 +1956,7 @@ msgstr ""
 msgid "Click to download new version in default browser: %s"
 msgstr ""
 
-msgid "The Bambu Studio needs an upgrade"
+msgid "The Bambu Hui needs an upgrade"
 msgstr ""
 
 msgid "This is the newest version."
@@ -2010,19 +2010,19 @@ msgstr ""
 msgid "Open Project"
 msgstr ""
 
-msgid "The Bambu Studio version is too old to enable cloud service. Please download the latest version from Bambu Lab website."
+msgid "The Bambu Hui version is too old to enable cloud service. Please download the latest version from Bambu Lab website."
 msgstr ""
 
-msgid "Your software certificate has been revoked, please update Bambu Studio software."
+msgid "Your software certificate has been revoked, please update Bambu Hui software."
 msgstr ""
 
 msgid "Retrieving printer information, please try again later."
 msgstr ""
 
-msgid "Please try updating Bambu Studio and then try again."
+msgid "Please try updating Bambu Hui and then try again."
 msgstr ""
 
-msgid "The certificate has expired. Please check the time settings or update Bambu Studio and try again."
+msgid "The certificate has expired. Please check the time settings or update Bambu Hui and try again."
 msgstr ""
 
 msgid "The certificate is no longer valid and the printing functions are unavailable. If you need printing. Please visit the official website at https://bambulab.com/ to download and update."
@@ -2088,7 +2088,7 @@ msgstr ""
 msgid "Rename"
 msgstr ""
 
-msgid "Bambu Studio GUI initialization failed"
+msgid "Bambu Hui GUI initialization failed"
 msgstr ""
 
 #, possible-boost-format
@@ -3360,13 +3360,13 @@ msgstr ""
 msgid "License"
 msgstr ""
 
-msgid "Bambu Studio is licensed under "
+msgid "Bambu Hui is licensed under "
 msgstr ""
 
 msgid "GNU Affero General Public License, version 3"
 msgstr ""
 
-msgid "Bambu Studio is based on PrusaSlicer by Prusa Research, which is from Slic3r by Alessandro Ranellucci and the RepRap community"
+msgid "Bambu Hui is based on PrusaSlicer by Prusa Research, which is from Slic3r by Alessandro Ranellucci and the RepRap community"
 msgstr ""
 
 msgid "Libraries"
@@ -3379,7 +3379,7 @@ msgstr ""
 msgid "About %s"
 msgstr ""
 
-msgid "Bambu Studio is based on PrusaSlicer by PrusaResearch and SuperSlicer by Merill(supermerill)."
+msgid "Bambu Hui is based on PrusaSlicer by PrusaResearch and SuperSlicer by Merill(supermerill)."
 msgstr ""
 
 msgid "PrusaSlicer is originally based on Slic3r by Alessandro Ranellucci."
@@ -3388,7 +3388,7 @@ msgstr ""
 msgid "Slic3r was created by Alessandro Ranellucci with the help of many other contributors."
 msgstr ""
 
-msgid "Bambu Studio also referenced some ideas from Cura by Ultimaker."
+msgid "Bambu Hui also referenced some ideas from Cura by Ultimaker."
 msgstr ""
 
 msgid "There many parts of the software that come from community contributions, so we're unable to list them one-by-one, and instead, they'll be attributed in the corresponding code comments."
@@ -5779,7 +5779,7 @@ msgstr ""
 
 msgid ""
 "Another virtual camera is running.\n"
-"Bambu Studio supports only a single virtual camera.\n"
+"Bambu Hui supports only a single virtual camera.\n"
 "Do you want to stop this virtual camera?"
 msgstr ""
 
@@ -5793,7 +5793,7 @@ msgstr ""
 msgid "Information"
 msgstr ""
 
-msgid "The live streaming feature relies on Bambu Studio to run,and the stream will end some time after the app is closed."
+msgid "The live streaming feature relies on Bambu Hui to run,and the stream will end some time after the app is closed."
 msgstr ""
 
 msgid "Printer Preview"
@@ -5905,7 +5905,7 @@ msgstr ""
 msgid "Failed to parse model information."
 msgstr ""
 
-msgid "The .gcode.3mf file contains no G-code data.Please slice it whth Bambu Studio and export a new .gcode.3mf file."
+msgid "The .gcode.3mf file contains no G-code data.Please slice it whth Bambu Hui and export a new .gcode.3mf file."
 msgstr ""
 
 #, possible-c-format, possible-boost-format
@@ -6476,19 +6476,19 @@ msgstr ""
 msgid "Newer 3mf version"
 msgstr ""
 
-msgid "The 3mf file version is in Beta and it is newer than the current Bambu Studio version."
+msgid "The 3mf file version is in Beta and it is newer than the current Bambu Hui version."
 msgstr ""
 
-msgid "If you would like to try Bambu Studio Beta, you may click to"
+msgid "If you would like to try Bambu Hui Beta, you may click to"
 msgstr ""
 
 msgid "Download Beta Version"
 msgstr ""
 
-msgid "The 3mf file version is newer than the current Bambu Studio version."
+msgid "The 3mf file version is newer than the current Bambu Hui version."
 msgstr ""
 
-msgid "Update your Bambu Studio could enable all functionality in the 3mf file."
+msgid "Update your Bambu Hui could enable all functionality in the 3mf file."
 msgstr ""
 
 msgid "Current Version: "
@@ -6788,7 +6788,7 @@ msgstr ""
 msgid "Store Sent Files on External Storage"
 msgstr ""
 
-msgid "Save the printing files initiated from Bambu Studio, Bambu Handy and MakerWorld on External Storage"
+msgid "Save the printing files initiated from Bambu Hui, Bambu Handy and MakerWorld on External Storage"
 msgstr ""
 
 msgid "Enable notification sounds"
@@ -7100,7 +7100,7 @@ msgstr ""
 
 msgid ""
 "There are some unknown or uncompatible filaments mapped to generic preset.\n"
-"Please update Bambu Studio or restart Bambu Studio to check if there is an update to system presets."
+"Please update Bambu Hui or restart Bambu Hui to check if there is an update to system presets."
 msgstr ""
 
 msgid "Filament type and color information have been synchronized, but slot information is not included."
@@ -7172,7 +7172,7 @@ msgstr ""
 msgid "The Config can not be loaded."
 msgstr ""
 
-msgid "Due to the lower version of Bambu Studio, this 3mf file cannot be fully loaded. Please update Bambu Studio to the latest version"
+msgid "Due to the lower version of Bambu Hui, this 3mf file cannot be fully loaded. Please update Bambu Hui to the latest version"
 msgstr ""
 
 msgid "Found following keys unrecognized:\n"
@@ -7181,7 +7181,7 @@ msgstr ""
 msgid "The 3mf is not from Bambu Lab, load geometry data and color data only."
 msgstr ""
 
-msgid "The 3mf is generated by old Bambu Studio, load geometry data only."
+msgid "The 3mf is generated by old Bambu Hui, load geometry data only."
 msgstr ""
 
 msgid "Invalid values found in the 3mf:"
@@ -7630,7 +7630,7 @@ msgstr ""
 msgid "Project downloaded %d%%"
 msgstr ""
 
-msgid "Importing to Bambu Studio failed. Please download the file and manually import it."
+msgid "Importing to Bambu Hui failed. Please download the file and manually import it."
 msgstr ""
 
 msgid "The current settings produce a model that is too large. Please narrow the range or increase the step size. (Model size is proportional to (End - Start) / Step size.)"
@@ -7849,7 +7849,7 @@ msgstr ""
 msgid " (Repair)"
 msgstr ""
 
-msgid "To repair the model, please use a third-party tool before importing it into Bambu Studio, such as "
+msgid "To repair the model, please use a third-party tool before importing it into Bambu Hui, such as "
 msgstr ""
 
 #, possible-c-format, possible-boost-format
@@ -7960,13 +7960,13 @@ msgstr ""
 msgid "Display time in 12-hour format with AM/PM instead of 24-hour format"
 msgstr ""
 
-msgid "Keep only one Bambu Studio instance"
+msgid "Keep only one Bambu Hui instance"
 msgstr ""
 
 msgid "On OSX there is always only one instance of app running by default. However it is allowed to run multiple instances of same app from the command line. In such case this settings will allow only one instance."
 msgstr ""
 
-msgid "If this is enabled, when starting Bambu Studio and another instance of the same Bambu Studio is already running, that instance will be reactivated instead."
+msgid "If this is enabled, when starting Bambu Hui and another instance of the same Bambu Hui is already running, that instance will be reactivated instead."
 msgstr ""
 
 msgid "Automatically transfer modified value when switching process and filament presets"
@@ -8107,34 +8107,34 @@ msgstr ""
 msgid "Auto sync user presets(Printer/Filament/Process)"
 msgstr ""
 
-msgid "If enabled, auto sync user presets with cloud after Bambu Studio startup or presets modified."
+msgid "If enabled, auto sync user presets with cloud after Bambu Hui startup or presets modified."
 msgstr ""
 
 msgid "Auto check for system presets updates"
 msgstr ""
 
-msgid "If enabled, auto check whether there are system presets updates after Bambu Studio startup."
+msgid "If enabled, auto check whether there are system presets updates after Bambu Hui startup."
 msgstr ""
 
-msgid "Associate Files To Bambu Studio"
+msgid "Associate Files To Bambu Hui"
 msgstr ""
 
-msgid "Associate .3mf files to Bambu Studio"
+msgid "Associate .3mf files to Bambu Hui"
 msgstr ""
 
-msgid "If enabled, sets Bambu Studio as default application to open .3mf files"
+msgid "If enabled, sets Bambu Hui as default application to open .3mf files"
 msgstr ""
 
-msgid "Associate .stl files to Bambu Studio"
+msgid "Associate .stl files to Bambu Hui"
 msgstr ""
 
-msgid "If enabled, sets Bambu Studio as default application to open .stl files"
+msgid "If enabled, sets Bambu Hui as default application to open .stl files"
 msgstr ""
 
-msgid "Associate .step/.stp files to Bambu Studio"
+msgid "Associate .step/.stp files to Bambu Hui"
 msgstr ""
 
-msgid "If enabled, sets Bambu Studio as default application to open .step files"
+msgid "If enabled, sets Bambu Hui as default application to open .step files"
 msgstr ""
 
 msgid "Online Models"
@@ -8967,7 +8967,7 @@ msgstr ""
 msgid "Storage needs to be inserted before send to printer."
 msgstr ""
 
-msgid "The printer is required to be in the same LAN as Bambu Studio."
+msgid "The printer is required to be in the same LAN as Bambu Hui."
 msgstr ""
 
 msgid "The printer does not support sending to printer storage."
@@ -9038,7 +9038,7 @@ msgstr ""
 msgid ""
 "Login failed. Please check the following items:\n"
 "1. Ensure the Pin code is entered correctly.\n"
-"2. Confirm that the region settings of the printer and Bambu Studio are consistent."
+"2. Confirm that the region settings of the printer and Bambu Hui are consistent."
 msgstr ""
 
 msgid "Log in printer"
@@ -10000,7 +10000,7 @@ msgstr ""
 msgid "Extruder of Bowden type does not support 0.2 diameter nozzle. We can only proceed with single-head printing."
 msgstr ""
 
-msgid "Studio would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Bambu Studio > Preferences"
+msgid "Studio would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Bambu Hui > Preferences"
 msgstr ""
 
 msgid "Flushing volume (mm³) for each filament pair."
@@ -10304,14 +10304,14 @@ msgstr ""
 msgid "Network plug-in update"
 msgstr ""
 
-msgid "Click OK to update the Network plug-in when Bambu Studio launches next time."
+msgid "Click OK to update the Network plug-in when Bambu Hui launches next time."
 msgstr ""
 
 #, possible-c-format, possible-boost-format
 msgid "A new Network plug-in(%s) available, Do you want to install it?"
 msgstr ""
 
-msgid "New version of Bambu Studio"
+msgid "New version of Bambu Hui"
 msgstr ""
 
 msgid "Skip this Version"
@@ -10329,7 +10329,7 @@ msgstr ""
 msgid "Try the following methods to update the connection parameters and reconnect to the printer."
 msgstr ""
 
-msgid "1. Please confirm Bambu Studio and your printer are in the same LAN."
+msgid "1. Please confirm Bambu Hui and your printer are in the same LAN."
 msgstr ""
 
 msgid "2. If the IP and Access Code below are different from the actual values on your printer, please correct them."
@@ -16570,7 +16570,7 @@ msgid "Remove the third material"
 msgstr ""
 
 #: resources/data/hints.ini: [hint:How to use keyboard shortcuts]
-msgid "How to use keyboard shortcuts\nDid you know that Bambu Studio offers a wide range of keyboard shortcuts and 3D scene operations."
+msgid "How to use keyboard shortcuts\nDid you know that Bambu Hui offers a wide range of keyboard shortcuts and 3D scene operations."
 msgstr ""
 
 #: resources/data/hints.ini: [hint:Cut Tool]
@@ -16614,11 +16614,11 @@ msgid "Split to Objects/Parts\nDid you know that you can split a big object into
 msgstr ""
 
 #: resources/data/hints.ini: [hint:Subtract a Part]
-msgid "Subtract a Part\nDid you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Bambu Studio. Read more in the documentation."
+msgid "Subtract a Part\nDid you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Bambu Hui. Read more in the documentation."
 msgstr ""
 
 #: resources/data/hints.ini: [hint:STEP]
-msgid "STEP\nDid you know that you can improve your print quality by slicing a STEP file instead of an STL?\nBambu Studio supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
+msgid "STEP\nDid you know that you can improve your print quality by slicing a STEP file instead of an STL?\nBambu Hui supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
 msgstr ""
 
 #: resources/data/hints.ini: [hint:Z seam location]

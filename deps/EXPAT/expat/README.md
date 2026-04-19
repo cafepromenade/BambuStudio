@@ -1,4 +1,4 @@
-Expat, Release 2.5.0, only picked the lib related files into Bambu Studio, built as static library
+Expat, Release 2.5.0, only picked the lib related files into Bambu Hui, built as static library
 
 The original README:
 ---------------------------------------------------------------------

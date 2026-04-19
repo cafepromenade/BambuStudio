@@ -2416,7 +2416,7 @@
                 },
                 {
                     "ecode": "0501401F",
-                    "intro": "Upłynął limit czasu autoryzacji. Upewnij się, że Twój telefon lub komputer ma dostęp do Internetu, a podczas procesu powiązania upewnij się, że aplikacje Bambu Studio / Bambu Handy APP działają w pierwszym planie."
+                    "intro": "Upłynął limit czasu autoryzacji. Upewnij się, że Twój telefon lub komputer ma dostęp do Internetu, a podczas procesu powiązania upewnij się, że aplikacje Bambu Hui / Bambu Handy APP działają w pierwszym planie."
                 },
                 {
                     "ecode": "05014021",
@@ -2492,7 +2492,7 @@
                 },
                 {
                     "ecode": "0500401F",
-                    "intro": "Autoryzacja wygasła. Upewnij się, że Twój telefon lub komputer ma dostęp do Internetu i upewnij się, że aplikacja Bambu Studio/Bambu Handy APP działa na pierwszym planie podczas operacji powiązania."
+                    "intro": "Autoryzacja wygasła. Upewnij się, że Twój telefon lub komputer ma dostęp do Internetu i upewnij się, że aplikacja Bambu Hui/Bambu Handy APP działa na pierwszym planie podczas operacji powiązania."
                 },
                 {
                     "ecode": "05004021",

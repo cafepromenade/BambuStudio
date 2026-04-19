@@ -54,7 +54,7 @@ RUN apt-get update && apt-get install  -y \
 ENV LC_ALL=en_US.utf8
 RUN locale-gen $LC_ALL
 
-# Set this so that Bambu Studio doesn't complain about
+# Set this so that Bambu Hui doesn't complain about
 # the CA cert path on every startup
 ENV SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
 
@@ -68,7 +68,7 @@ WORKDIR /BambuStudio
 # It might conflict with your mapped user, remove if user ubuntu exist
 RUN if id "ubuntu" >/dev/null 2>&1; then userdel -r ubuntu; fi
 
-# It's easier to run Bambu Studio as the same username,
+# It's easier to run Bambu Hui as the same username,
 # UID and GID as your workstation.  Since we bind mount
 # your home directory into the container, it's handy
 # to keep permissions the same.  Just in case, defaults

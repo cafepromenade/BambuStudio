@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Bambu Studio\n"
+"Project-Id-Version: Bambu Hui\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-14 19:58+0800\n"
 "PO-Revision-Date: \n"
@@ -1944,16 +1944,16 @@ msgid "Connect %s failed! [SN:%s, code=%s]"
 msgstr "A következőhöz való csatlakozás sikertelen: %s! [SN:%s, code=%s]"
 
 msgid "BambuStudio configuration file read failed. Please manually backup and delete it, and then restart BambuStudio software."
-msgstr "A Bambu Studio konfigurációs fájl olvasása sikertelen. Kérjük, manuálisan készíts biztonsági mentést és töröld a régi fájlt, majd indítsd újra a Bambu Studio szoftvert."
+msgstr "A Bambu Hui konfigurációs fájl olvasása sikertelen. Kérjük, manuálisan készíts biztonsági mentést és töröld a régi fájlt, majd indítsd újra a Bambu Hui szoftvert."
 
 #, c-format, boost-format
 msgid ""
 "Failed to install preset files to %s.\n"
-"Please make sure Bambu Studio has permission to delete and write in this directory,\n"
+"Please make sure Bambu Hui has permission to delete and write in this directory,\n"
 "and it is not being occupied by the system or other applications."
 msgstr ""
 "Nem sikerült telepíteni a beállítási fájlokat: %s.\n"
-"Kérjük, győződj meg arról, hogy a Bambu Studio rendelkezik törlési és írási jogosultsággal ebben a mappában,\n"
+"Kérjük, győződj meg arról, hogy a Bambu Hui rendelkezik törlési és írási jogosultsággal ebben a mappában,\n"
 "és azt nem használja a rendszer vagy más alkalmazások."
 
 #, c-format, boost-format
@@ -1974,8 +1974,8 @@ msgstr "Konfiguráció betöltése"
 msgid "Click to download new version in default browser: %s"
 msgstr "Kattints az új verzió letöltéséhez az alapértelmezett böngészőben: %s"
 
-msgid "The Bambu Studio needs an upgrade"
-msgstr "A Bambu Studio frissítésre szorul"
+msgid "The Bambu Hui needs an upgrade"
+msgstr "A Bambu Hui frissítésre szorul"
 
 msgid "This is the newest version."
 msgstr "Ez a legújabb verzió."
@@ -2028,19 +2028,19 @@ msgstr "a projektfájlokkal kapcsolatos műveletek nem engedélyezettek szeletel
 msgid "Open Project"
 msgstr "Projekt megnyitása"
 
-msgid "The Bambu Studio version is too old to enable cloud service. Please download the latest version from Bambu Lab website."
-msgstr "The Bambu Studio version is too old to enable cloud service. Please download the latest version from Bambu Lab's website."
+msgid "The Bambu Hui version is too old to enable cloud service. Please download the latest version from Bambu Lab website."
+msgstr "The Bambu Hui version is too old to enable cloud service. Please download the latest version from Bambu Lab's website."
 
-msgid "Your software certificate has been revoked, please update Bambu Studio software."
+msgid "Your software certificate has been revoked, please update Bambu Hui software."
 msgstr "A szoftvertanúsítványt visszavonták; kérjük, frissítsd a Bambu Studiót."
 
 msgid "Retrieving printer information, please try again later."
 msgstr "Nyomtatóinformációk lekérése, kérjük, próbáld újra később."
 
-msgid "Please try updating Bambu Studio and then try again."
+msgid "Please try updating Bambu Hui and then try again."
 msgstr "Kérjük, próbáld meg frissíteni a Bambu Studiót, majd próbáld újra."
 
-msgid "The certificate has expired. Please check the time settings or update Bambu Studio and try again."
+msgid "The certificate has expired. Please check the time settings or update Bambu Hui and try again."
 msgstr "A tanúsítvány lejárt. Kérjük, ellenőrizd az időbeállításokat, vagy frissítsd a Bambu Studiót, és próbáld újra."
 
 msgid "The certificate is no longer valid and the printing functions are unavailable. If you need printing. Please visit the official website at https://bambulab.com/ to download and update."
@@ -2106,8 +2106,8 @@ msgstr "Megnyitás"
 msgid "Rename"
 msgstr "Átnevezés"
 
-msgid "Bambu Studio GUI initialization failed"
-msgstr "Nem sikerült a Bambu Studio GUI inicializálása"
+msgid "Bambu Hui GUI initialization failed"
+msgstr "Nem sikerült a Bambu Hui GUI inicializálása"
 
 #, boost-format
 msgid "Fatal error, exception caught: %1%"
@@ -3390,14 +3390,14 @@ msgstr "Copyright"
 msgid "License"
 msgstr "Licenc"
 
-msgid "Bambu Studio is licensed under "
-msgstr "A Bambu Studio a következő licencet használja "
+msgid "Bambu Hui is licensed under "
+msgstr "A Bambu Hui a következő licencet használja "
 
 msgid "GNU Affero General Public License, version 3"
 msgstr "GNU Affero General Public License, version 3"
 
-msgid "Bambu Studio is based on PrusaSlicer by Prusa Research, which is from Slic3r by Alessandro Ranellucci and the RepRap community"
-msgstr "A Bambu Studio a Prusa Research által készített PrusaSliceren alapul, amely az Alessandro Ranellucci és a RepRap közösség által készített Slic3r-ből származik"
+msgid "Bambu Hui is based on PrusaSlicer by Prusa Research, which is from Slic3r by Alessandro Ranellucci and the RepRap community"
+msgstr "A Bambu Hui a Prusa Research által készített PrusaSliceren alapul, amely az Alessandro Ranellucci és a RepRap közösség által készített Slic3r-ből származik"
 
 msgid "Libraries"
 msgstr "Könyvtárak"
@@ -3409,8 +3409,8 @@ msgstr "Ez a szoftver olyan nyílt forráskódú komponenseket használ, amelyek
 msgid "About %s"
 msgstr "%s névjegye"
 
-msgid "Bambu Studio is based on PrusaSlicer by PrusaResearch and SuperSlicer by Merill(supermerill)."
-msgstr "A Bambu Studio a PrusaResearch által készített PrusaSlicer és Merill (supermerill) által készített SuperSlicer alapján készült."
+msgid "Bambu Hui is based on PrusaSlicer by PrusaResearch and SuperSlicer by Merill(supermerill)."
+msgstr "A Bambu Hui a PrusaResearch által készített PrusaSlicer és Merill (supermerill) által készített SuperSlicer alapján készült."
 
 msgid "PrusaSlicer is originally based on Slic3r by Alessandro Ranellucci."
 msgstr "A PrusaSlicer eredetileg az Alessandro Ranellucci által készített Slic3r-en alapul."
@@ -3418,8 +3418,8 @@ msgstr "A PrusaSlicer eredetileg az Alessandro Ranellucci által készített Sli
 msgid "Slic3r was created by Alessandro Ranellucci with the help of many other contributors."
 msgstr "A Slic3r-t Alessandro Ranellucci készítette sok más közreműködő segítségével."
 
-msgid "Bambu Studio also referenced some ideas from Cura by Ultimaker."
-msgstr "A Bambu Studio az Ultimaker Cura néhány ötletére is támaszkodott."
+msgid "Bambu Hui also referenced some ideas from Cura by Ultimaker."
+msgstr "A Bambu Hui az Ultimaker Cura néhány ötletére is támaszkodott."
 
 msgid "There many parts of the software that come from community contributions, so we're unable to list them one-by-one, and instead, they'll be attributed in the corresponding code comments."
 msgstr "A szoftver számos része származik közösségi közreműködésből, így nem tudjuk őket egyenként felsorolni, ezért a megfelelő helyeken a kód kommentekben vannak feltüntetve."
@@ -5914,11 +5914,11 @@ msgstr "Virtuális kameraeszközök letöltése"
 
 msgid ""
 "Another virtual camera is running.\n"
-"Bambu Studio supports only a single virtual camera.\n"
+"Bambu Hui supports only a single virtual camera.\n"
 "Do you want to stop this virtual camera?"
 msgstr ""
 "Már fut egy másik virtuális kamera.\n"
-"A Bambu Studio csak egy virtuális kamerát támogat.\n"
+"A Bambu Hui csak egy virtuális kamerát támogat.\n"
 "Leállítod ezt a virtuális kamerát?"
 
 #, c-format, boost-format
@@ -5931,8 +5931,8 @@ msgstr "A hálózat nem elérhető"
 msgid "Information"
 msgstr "Információ"
 
-msgid "The live streaming feature relies on Bambu Studio to run,and the stream will end some time after the app is closed."
-msgstr "Az élő közvetítési funkció a Bambu Studio alkalmazásban fut, és a stream az alkalmazás bezárását követően meg fog szakadni."
+msgid "The live streaming feature relies on Bambu Hui to run,and the stream will end some time after the app is closed."
+msgstr "Az élő közvetítési funkció a Bambu Hui alkalmazásban fut, és a stream az alkalmazás bezárását követően meg fog szakadni."
 
 msgid "Printer Preview"
 msgstr "Nyomtató előnézet"
@@ -6043,7 +6043,7 @@ msgstr "Nem sikerült letölteni a modellinfomációt a nyomtatóról."
 msgid "Failed to parse model information."
 msgstr "Nem sikerült feldolgozni a modellinformációkat"
 
-msgid "The .gcode.3mf file contains no G-code data.Please slice it whth Bambu Studio and export a new .gcode.3mf file."
+msgid "The .gcode.3mf file contains no G-code data.Please slice it whth Bambu Hui and export a new .gcode.3mf file."
 msgstr "Az .gcode.3mf fájl nem tartalmaz G-kódot. Kérjük, szeleteld újra a BambuStudio segítségével, és exportálj egy új.gcode.3mf fájlt."
 
 #, c-format, boost-format
@@ -6634,20 +6634,20 @@ msgstr "Kihagyás"
 msgid "Newer 3mf version"
 msgstr "Újabb 3mf verzió"
 
-msgid "The 3mf file version is in Beta and it is newer than the current Bambu Studio version."
-msgstr "A 3mf fájl verziója béta stádiumban van, és újabb, mint a jelenlegi Bambu Studio verzió."
+msgid "The 3mf file version is in Beta and it is newer than the current Bambu Hui version."
+msgstr "A 3mf fájl verziója béta stádiumban van, és újabb, mint a jelenlegi Bambu Hui verzió."
 
-msgid "If you would like to try Bambu Studio Beta, you may click to"
-msgstr "Ha szeretnéd kipróbálni a Bambu Studio Béta verzióját, kattints"
+msgid "If you would like to try Bambu Hui Beta, you may click to"
+msgstr "Ha szeretnéd kipróbálni a Bambu Hui Béta verzióját, kattints"
 
 msgid "Download Beta Version"
 msgstr "Béta verzió letöltése"
 
-msgid "The 3mf file version is newer than the current Bambu Studio version."
-msgstr "A 3mf fájl verziója újabb, mint a jelenlegi Bambu Studio verzió."
+msgid "The 3mf file version is newer than the current Bambu Hui version."
+msgstr "A 3mf fájl verziója újabb, mint a jelenlegi Bambu Hui verzió."
 
-msgid "Update your Bambu Studio could enable all functionality in the 3mf file."
-msgstr "A Bambu Studio frissítésével használhatod a 3mf fájl összes funkcióját."
+msgid "Update your Bambu Hui could enable all functionality in the 3mf file."
+msgstr "A Bambu Hui frissítésével használhatod a 3mf fájl összes funkcióját."
 
 msgid "Current Version: "
 msgstr "Jelenlegi verzió: "
@@ -6948,8 +6948,8 @@ msgstr "Automatikus helyreállítás lépésvesztésből"
 msgid "Store Sent Files on External Storage"
 msgstr "Elküldött fájlok tárolása külső tárhelyen"
 
-msgid "Save the printing files initiated from Bambu Studio, Bambu Handy and MakerWorld on External Storage"
-msgstr "A Bambu Studio, a Bambu Handy és a MakerWorld által kezdeményezett nyomtatási fájlok mentése külső tárhelyre"
+msgid "Save the printing files initiated from Bambu Hui, Bambu Handy and MakerWorld on External Storage"
+msgstr "A Bambu Hui, a Bambu Handy és a MakerWorld által kezdeményezett nyomtatási fájlok mentése külső tárhelyre"
 
 msgid "Enable notification sounds"
 msgstr "Értesítési hangok engedélyezése"
@@ -7265,7 +7265,7 @@ msgstr "Filamentek szinkronizálása az AMS-sel"
 
 msgid ""
 "There are some unknown or uncompatible filaments mapped to generic preset.\n"
-"Please update Bambu Studio or restart Bambu Studio to check if there is an update to system presets."
+"Please update Bambu Hui or restart Bambu Hui to check if there is an update to system presets."
 msgstr ""
 "Van néhány ismeretlen vagy nem kompatibilis filament, amelyek az általános beállításokat használják.\n"
 "Kérjük, frissítsd a Bambu Studiót, vagy indítsd újra a Bambu Studiót, hogy megtudd, van-e frissítés a rendszerbeállításokhoz."
@@ -7339,8 +7339,8 @@ msgstr "3mf betöltése"
 msgid "The Config can not be loaded."
 msgstr "A konfiguráció nem tölthető be."
 
-msgid "Due to the lower version of Bambu Studio, this 3mf file cannot be fully loaded. Please update Bambu Studio to the latest version"
-msgstr "A Bambu Studio alacsonyabb verziója miatt ez a 3mf fájl nem tölthető be teljesen. Kérjük, frissítsd a Bambu Studiót a legújabb verzióra"
+msgid "Due to the lower version of Bambu Hui, this 3mf file cannot be fully loaded. Please update Bambu Hui to the latest version"
+msgstr "A Bambu Hui alacsonyabb verziója miatt ez a 3mf fájl nem tölthető be teljesen. Kérjük, frissítsd a Bambu Studiót a legújabb verzióra"
 
 msgid "Found following keys unrecognized:\n"
 msgstr "A következő ismeretlen kulcsokat találtuk:\n"
@@ -7348,8 +7348,8 @@ msgstr "A következő ismeretlen kulcsokat találtuk:\n"
 msgid "The 3mf is not from Bambu Lab, load geometry data and color data only."
 msgstr "Ez a 3mf nem a Bambu Labtól származik, csak a geometriai és színadatok kerülnek betöltésre."
 
-msgid "The 3mf is generated by old Bambu Studio, load geometry data only."
-msgstr "A 3mf a Bambu Studio egy régebbi verziójával lett létrehozva, csak a geometriai adatok kerülnek betöltésre."
+msgid "The 3mf is generated by old Bambu Hui, load geometry data only."
+msgstr "A 3mf a Bambu Hui egy régebbi verziójával lett létrehozva, csak a geometriai adatok kerülnek betöltésre."
 
 msgid "Invalid values found in the 3mf:"
 msgstr "Érvénytelen értékek a 3mf-ben:"
@@ -7839,7 +7839,7 @@ msgstr "Sikertelen letöltés; fájlméret probléma."
 msgid "Project downloaded %d%%"
 msgstr "Projekt letöltve %d%%"
 
-msgid "Importing to Bambu Studio failed. Please download the file and manually import it."
+msgid "Importing to Bambu Hui failed. Please download the file and manually import it."
 msgstr "A Bambu Studióba történő importálás sikertelen. Kérjük, töltsd le a fájlt és importáld kézzel."
 
 msgid "The current settings produce a model that is too large. Please narrow the range or increase the step size. (Model size is proportional to (End - Start) / Step size.)"
@@ -8060,7 +8060,7 @@ msgstr "Háromszögek: %1%\n"
 msgid " (Repair)"
 msgstr " (Javítás)"
 
-msgid "To repair the model, please use a third-party tool before importing it into Bambu Studio, such as "
+msgid "To repair the model, please use a third-party tool before importing it into Bambu Hui, such as "
 msgstr "A modell javításához használj külső szoftvert, mielőtt importálnád azt a Bambu Studióba, például a következőt: "
 
 #, c-format, boost-format
@@ -8179,14 +8179,14 @@ msgstr "12 órás időformátum használata"
 msgid "Display time in 12-hour format with AM/PM instead of 24-hour format"
 msgstr "Az idő megjelenítése 12 órás formátumban AM/PM jelöléssel a 24 órás formátum helyett"
 
-msgid "Keep only one Bambu Studio instance"
-msgstr "Csak egy Bambu Studio-példány megtartása"
+msgid "Keep only one Bambu Hui instance"
+msgstr "Csak egy Bambu Hui-példány megtartása"
 
 msgid "On OSX there is always only one instance of app running by default. However it is allowed to run multiple instances of same app from the command line. In such case this settings will allow only one instance."
 msgstr "OSX rendszeren alapértelmezés szerint mindig csak egy példány fut az alkalmazásból. Ugyanakkor ugyanaz az alkalmazás több példánya is futtatható a parancssorból. Ebben az esetben ez a beállítás csak egy példányt engedélyez."
 
-msgid "If this is enabled, when starting Bambu Studio and another instance of the same Bambu Studio is already running, that instance will be reactivated instead."
-msgstr "Ha ez engedélyezve van, akkor a Bambu Studio indításakor, ha már fut egy másik példány, akkor az kerül újra aktiválásra egy új példány indítása helyett."
+msgid "If this is enabled, when starting Bambu Hui and another instance of the same Bambu Hui is already running, that instance will be reactivated instead."
+msgstr "Ha ez engedélyezve van, akkor a Bambu Hui indításakor, ha már fut egy másik példány, akkor az kerül újra aktiválásra egy új példány indítása helyett."
 
 msgid "Automatically transfer modified value when switching process and filament presets"
 msgstr "Automatikusan átveszi a módosított értéket a folyamat- és az filamentbeállítások váltásakor"
@@ -8326,35 +8326,35 @@ msgstr "Beállítások"
 msgid "Auto sync user presets(Printer/Filament/Process)"
 msgstr "Felhasználói beállítások automatikus szinkronizálása (Nyomtató/Filament/Folyamat)"
 
-msgid "If enabled, auto sync user presets with cloud after Bambu Studio startup or presets modified."
-msgstr "Ha engedélyezve van, automatikusan szinkronizálja a felhasználói beállításokat a felhővel a Bambu Studio indítása vagy a beállítások módosítása után."
+msgid "If enabled, auto sync user presets with cloud after Bambu Hui startup or presets modified."
+msgstr "Ha engedélyezve van, automatikusan szinkronizálja a felhasználói beállításokat a felhővel a Bambu Hui indítása vagy a beállítások módosítása után."
 
 msgid "Auto check for system presets updates"
 msgstr "Rendszerbeállítások frissítéseinek automatikus ellenőrzése"
 
-msgid "If enabled, auto check whether there are system presets updates after Bambu Studio startup."
-msgstr "Ha engedélyezve van, automatikusan ellenőrzi a rendszerbeállítások frissítéseit a Bambu Studio indítása után."
+msgid "If enabled, auto check whether there are system presets updates after Bambu Hui startup."
+msgstr "Ha engedélyezve van, automatikusan ellenőrzi a rendszerbeállítások frissítéseit a Bambu Hui indítása után."
 
-msgid "Associate Files To Bambu Studio"
+msgid "Associate Files To Bambu Hui"
 msgstr "Fájlok társítása a Bambu Studióhoz"
 
-msgid "Associate .3mf files to Bambu Studio"
+msgid "Associate .3mf files to Bambu Hui"
 msgstr ".3mf fájlok társítása a Bambu Studióhoz"
 
-msgid "If enabled, sets Bambu Studio as default application to open .3mf files"
-msgstr "Ha engedélyezve van, alapértelmezett alkalmazásként a Bambu Studio fogja megnyitni a .3mf fájlokat"
+msgid "If enabled, sets Bambu Hui as default application to open .3mf files"
+msgstr "Ha engedélyezve van, alapértelmezett alkalmazásként a Bambu Hui fogja megnyitni a .3mf fájlokat"
 
-msgid "Associate .stl files to Bambu Studio"
+msgid "Associate .stl files to Bambu Hui"
 msgstr ".stl fájlok társítása a Bambu Studióhoz"
 
-msgid "If enabled, sets Bambu Studio as default application to open .stl files"
-msgstr "Ha engedélyezve van, alapértelmezett alkalmazásként a Bambu Studio fogja megnyitni az .stl fájlokat"
+msgid "If enabled, sets Bambu Hui as default application to open .stl files"
+msgstr "Ha engedélyezve van, alapértelmezett alkalmazásként a Bambu Hui fogja megnyitni az .stl fájlokat"
 
-msgid "Associate .step/.stp files to Bambu Studio"
+msgid "Associate .step/.stp files to Bambu Hui"
 msgstr ".step/.stp fájlok társítása a Bambu Studióhoz"
 
-msgid "If enabled, sets Bambu Studio as default application to open .step files"
-msgstr "Ha engedélyezve van, alapértelmezett alkalmazásként a Bambu Studio fogja megnyitni a .step fájlokat"
+msgid "If enabled, sets Bambu Hui as default application to open .step files"
+msgstr "Ha engedélyezve van, alapértelmezett alkalmazásként a Bambu Hui fogja megnyitni a .step fájlokat"
 
 msgid "Online Models"
 msgstr "Online modellek"
@@ -9202,7 +9202,7 @@ msgstr "A nyomtató nem kompatibilis a kiválasztott nyomtatóbeállításokkal.
 msgid "Storage needs to be inserted before send to printer."
 msgstr "A nyomtatóra küldés előtt szükség van egy tárhelyre."
 
-msgid "The printer is required to be in the same LAN as Bambu Studio."
+msgid "The printer is required to be in the same LAN as Bambu Hui."
 msgstr "A nyomtatónak ugyanazon a hálózaton kell lennie, mint a Bambu Studiónak."
 
 msgid "The printer does not support sending to printer storage."
@@ -9275,11 +9275,11 @@ msgstr "Kérjük, erősítsd meg a nyomtató képernyőjén"
 msgid ""
 "Login failed. Please check the following items:\n"
 "1. Ensure the Pin code is entered correctly.\n"
-"2. Confirm that the region settings of the printer and Bambu Studio are consistent."
+"2. Confirm that the region settings of the printer and Bambu Hui are consistent."
 msgstr ""
 "Sikertelen bejelentkezés. Kérjük, ellenőrizd a következőket:\n"
 "1. Győződj meg arról, hogy a PIN-kód helyesen van megadva.\n"
-"2. Ellenőrizd, hogy a nyomtató és a Bambu Studio régióbeállításai megegyeznek-e."
+"2. Ellenőrizd, hogy a nyomtató és a Bambu Hui régióbeállításai megegyeznek-e."
 
 msgid "Log in printer"
 msgstr "Bejelentkezés a nyomtatóra"
@@ -10055,7 +10055,7 @@ msgid "Exit %s"
 msgstr "Kilépés %s"
 
 msgid "the Configuration package is incompatible with current APP."
-msgstr "a konfigurációs csomag nem kompatibilis a Bambu Studio jelenlegi verziójával."
+msgstr "a konfigurációs csomag nem kompatibilis a Bambu Hui jelenlegi verziójával."
 
 msgid "Configuration updates"
 msgstr "Konfiguráció frissítések"
@@ -10276,7 +10276,7 @@ msgstr ""
 msgid "Extruder of Bowden type does not support 0.2 diameter nozzle. We can only proceed with single-head printing."
 msgstr "A bovden típusú extruder nem támogatja a 0,2 mm átmérőjű fúvókát. Csak egyfejes nyomtatással folytathatod a feladatot."
 
-msgid "Studio would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Bambu Studio > Preferences"
+msgid "Studio would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Bambu Hui > Preferences"
 msgstr "A Studio újraszámítja az öblítési mennyiségeket minden szín- vagy filamentcserekor. Az automatikus újraszámítást letilthatod a beállításokban."
 
 msgid "Flushing volume (mm³) for each filament pair."
@@ -10580,15 +10580,15 @@ msgstr "%s verzió frissítési információi:"
 msgid "Network plug-in update"
 msgstr "Hálózati bővítmény frissítése"
 
-msgid "Click OK to update the Network plug-in when Bambu Studio launches next time."
-msgstr "Kattints az OK gombra a hálózati bővítmény frissítéséhez a Bambu Studio következő indításakor."
+msgid "Click OK to update the Network plug-in when Bambu Hui launches next time."
+msgstr "Kattints az OK gombra a hálózati bővítmény frissítéséhez a Bambu Hui következő indításakor."
 
 #, c-format, boost-format
 msgid "A new Network plug-in(%s) available, Do you want to install it?"
 msgstr "Új hálózati bővítmény (%s) érhető el. Szeretnéd telepíteni?"
 
-msgid "New version of Bambu Studio"
-msgstr "A Bambu Studio új verziója"
+msgid "New version of Bambu Hui"
+msgstr "A Bambu Hui új verziója"
 
 msgid "Skip this Version"
 msgstr "Verzió kihagyása"
@@ -10605,8 +10605,8 @@ msgstr "Nyomtató csatlakoztatása IP-cím és hozzáférési kód használatáv
 msgid "Try the following methods to update the connection parameters and reconnect to the printer."
 msgstr "Próbáld ki a következő módszereket a kapcsolati paraméterek frissítéséhez és a nyomtatóhoz való újbóli csatlakozáshoz."
 
-msgid "1. Please confirm Bambu Studio and your printer are in the same LAN."
-msgstr "1. Kérjük ellenőrizd, hogy a Bambu Studio és a nyomtató ugyanahhoz a helyi hálózathoz csatlakozik."
+msgid "1. Please confirm Bambu Hui and your printer are in the same LAN."
+msgstr "1. Kérjük ellenőrizd, hogy a Bambu Hui és a nyomtató ugyanahhoz a helyi hálózathoz csatlakozik."
 
 msgid "2. If the IP and Access Code below are different from the actual values on your printer, please correct them."
 msgstr "2. Ha az alábbi IP-cím és hozzáférési kód nem egyezik a nyomtatón láthatóval, kérjük, javítsd ki azokat."
@@ -10832,7 +10832,7 @@ msgid ""
 msgstr ""
 "Személyes Hozzáférési Token (PAT)\n"
 "\n"
-"Egy biztonságos hitelesítő kulcs, amely igazolja a személyazonosságod a Helio szolgáltatásokban. Ezt a Bambu Studio automatikusan felhasználja optimalizálásokhoz és szimulációkhoz.\n"
+"Egy biztonságos hitelesítő kulcs, amely igazolja a személyazonosságod a Helio szolgáltatásokban. Ezt a Bambu Hui automatikusan felhasználja optimalizálásokhoz és szimulációkhoz.\n"
 "\n"
 "A következő esetekben lehet szükség a másolásra:\n"
 "• Helio integrálásához más slicerekkel vagy eszközökkel\n"
@@ -11240,7 +11240,7 @@ msgid "An important update was detected and needs to be run before printing can 
 msgstr "Fontos frissítést találtunk, amelyet a nyomtatás előtt telepíteni kell. Szeretnél most frissíteni? A frissítés később is elvégezhető a „Firmware-frissítése“ menüpontban."
 
 msgid "The firmware version is abnormal. Repairing and updating are required before printing. Do you want to update now? You can also update later on printer or update next time starting the studio."
-msgstr "A firmware verziója rendellenes. A nyomtatás előtt javításra és frissítésre van szükség. Szeretnél frissíteni most? A frissítés később is elvégezhető a Bambu Studio következő indításakor."
+msgstr "A firmware verziója rendellenes. A nyomtatás előtt javításra és frissítésre van szükség. Szeretnél frissíteni most? A frissítés később is elvégezhető a Bambu Hui következő indításakor."
 
 msgid "Extension Board"
 msgstr "Bővítőpanel"
@@ -13211,7 +13211,7 @@ msgid "Length of sparse infill anchor"
 msgstr "Ritkás kitöltés horgony hossza"
 
 msgid "Connect a sparse infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over sparse infill line width. Slicer tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than infill_anchor_max is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to this parameter, but no longer than anchor_length_max. Set this parameter to zero to disable anchoring perimeters connected to a single infill line."
-msgstr "Ez összeköti a ritkás kitöltés vonalát a belső peremmel, egy rövid szegmes hozzáadásával. Százalékban kifejezve (például: 15%),  a ritkás kitöltési vonal szélességére vonatkozik. A Bambu Studio két közeli kitöltési vonalat próbál összekapcsolni egy rövid szegmenssel. Ha nem található az infill_anchor_max-nál rövidebb peremszakasz, a kitöltési vonal csak az egyik oldalon fog kapcsolódni a peremszakaszhoz, és a szakasz hossza erre a paraméterre korlátozódik, de nem lesz hosszabb, mint az anchor_length_max által megszabott érték. Állítsd ezt a paramétert nullára a peremszakaszok egyetlen kitöltési vonallal való lehorgányzásának letiltásához."
+msgstr "Ez összeköti a ritkás kitöltés vonalát a belső peremmel, egy rövid szegmes hozzáadásával. Százalékban kifejezve (például: 15%),  a ritkás kitöltési vonal szélességére vonatkozik. A Bambu Hui két közeli kitöltési vonalat próbál összekapcsolni egy rövid szegmenssel. Ha nem található az infill_anchor_max-nál rövidebb peremszakasz, a kitöltési vonal csak az egyik oldalon fog kapcsolódni a peremszakaszhoz, és a szakasz hossza erre a paraméterre korlátozódik, de nem lesz hosszabb, mint az anchor_length_max által megszabott érték. Állítsd ezt a paramétert nullára a peremszakaszok egyetlen kitöltési vonallal való lehorgányzásának letiltásához."
 
 msgid "0 (no open anchors)"
 msgstr "0 (nincs nyitott horgony)"
@@ -13223,7 +13223,7 @@ msgid "Maximum length of sparse infill anchor"
 msgstr "Ritkás kitöltés lehorgonyzásának hossza"
 
 msgid "Connect a sparse infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over sparse infill line width. Slicer tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than this parameter is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to infill_anchor, but no longer than this parameter. Set this parameter to zero to disable anchoring."
-msgstr "Ez összeköti a ritkás kitöltés vonalát a belső peremmel, egy rövid szegmes hozzáadásával. Százalékban kifejezve (például: 15%),  a ritkás kitöltési vonal szélességére vonatkozik. A Bambu Studio két közeli kitöltési vonalat próbál összekapcsolni egy rövid szegmenssel. Ha nem található a paraméternél rövidebb peremszakasz, a kitöltési vonal csak az egyik oldalon fog kapcsolódni a peremszakaszhoz, és a szakasz hossza erre a paraméterre korlátozódik. Állítsd ezt a paramétert nullára a lehorgányzás letiltásához."
+msgstr "Ez összeköti a ritkás kitöltés vonalát a belső peremmel, egy rövid szegmes hozzáadásával. Százalékban kifejezve (például: 15%),  a ritkás kitöltési vonal szélességére vonatkozik. A Bambu Hui két közeli kitöltési vonalat próbál összekapcsolni egy rövid szegmenssel. Ha nem található a paraméternél rövidebb peremszakasz, a kitöltési vonal csak az egyik oldalon fog kapcsolódni a peremszakaszhoz, és a szakasz hossza erre a paraméterre korlátozódik. Állítsd ezt a paramétert nullára a lehorgányzás letiltásához."
 
 msgid "0 (not anchored)"
 msgstr "0 (nincs lehorgonyozva)"
@@ -17016,10 +17016,10 @@ msgstr ""
 #: resources/data/hints.ini: [hint:How to use keyboard shortcuts]
 msgid ""
 "How to use keyboard shortcuts\n"
-"Did you know that Bambu Studio offers a wide range of keyboard shortcuts and 3D scene operations."
+"Did you know that Bambu Hui offers a wide range of keyboard shortcuts and 3D scene operations."
 msgstr ""
 "A billentyűparancsok használata\n"
-"Tudtad, hogy a Bambu Studio billentyűparancsok és 3D-műveletek széles választékát kínálja?"
+"Tudtad, hogy a Bambu Hui billentyűparancsok és 3D-műveletek széles választékát kínálja?"
 
 #: resources/data/hints.ini: [hint:Cut Tool]
 msgid ""
@@ -17105,7 +17105,7 @@ msgstr ""
 #: resources/data/hints.ini: [hint:Subtract a Part]
 msgid ""
 "Subtract a Part\n"
-"Did you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Bambu Studio. Read more in the documentation."
+"Did you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Bambu Hui. Read more in the documentation."
 msgstr ""
 "Tárgy kivonása\n"
 "Tudtad, hogy a negatív módosító segítségével kivonhatsz egy tárgyat a másikból? Így például könnyen átméretezhető furatokat hozhatsz létre közvetlenül a Bambu Studióban. További információ a dokumentációban található."
@@ -17114,11 +17114,11 @@ msgstr ""
 msgid ""
 "STEP\n"
 "Did you know that you can improve your print quality by slicing a STEP file instead of an STL?\n"
-"Bambu Studio supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
+"Bambu Hui supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
 msgstr ""
 "STEP\n"
 "Tudtad, hogy javíthatod a nyomtatási minőséget azáltal, hogy STL helyett STEP fájlt használsz?\n"
-"A Bambu Studio képes a STEP fájlokat közvetlenül szeletelni, ami simább eredményt biztosít, mint egy alacsonyabb felbontású STL fájl. Próbáld ki!"
+"A Bambu Hui képes a STEP fájlokat közvetlenül szeletelni, ami simább eredményt biztosít, mint egy alacsonyabb felbontású STL fájl. Próbáld ki!"
 
 #: resources/data/hints.ini: [hint:Z seam location]
 msgid ""
@@ -18444,8 +18444,8 @@ msgstr ""
 #~ msgid "Camera Angle - Right side"
 #~ msgstr "Kameranézet - Jobb oldal"
 
-#~ msgid "Prefer to use high performance GPU (Effective after manual restart Bambu Studio)"
-#~ msgstr "Nagy teljesítményű GPU használatának előnyben részesítése (Bambu Studio újraindítása után működik csak)"
+#~ msgid "Prefer to use high performance GPU (Effective after manual restart Bambu Hui)"
+#~ msgstr "Nagy teljesítményű GPU használatának előnyben részesítése (Bambu Hui újraindítása után működik csak)"
 
 #~ msgid "If enabled, this feature can improve rendering performance to some extent. However, it may cause flickering on multi-GPU systems, so it is recommended to disable it."
 #~ msgstr "Ha engedélyezve van, ez a funkció bizonyos mértékig javíthatja a renderelési teljesítményt. Több GPU-s rendszereken azonban villódzást okozhat, ezért ajánlott kikapcsolni."
@@ -18479,7 +18479,7 @@ msgstr ""
 #~ msgid "External Spool"
 #~ msgstr "Külső tekercs"
 
-#~ msgid "There are some unknown or uncompatible filaments mapped to generic preset. Please update Bambu Studio or restart Bambu Studio to check if there is an update to system presets."
+#~ msgid "There are some unknown or uncompatible filaments mapped to generic preset. Please update Bambu Hui or restart Bambu Hui to check if there is an update to system presets."
 #~ msgstr "Ismeretlen vagy inkompatibilis filamentek lettek hozzárendelve az általános beállításokhoz. Kérjük, frissítsd a Bambu Studiót vagy indítsd újra, hogy letöltsd az esetlegesen elérhető frissített rendszerbeállításokat."
 
 #, c-format, boost-format
@@ -18803,8 +18803,8 @@ msgstr ""
 #~ msgid "Cool Plate / PLA Plate"
 #~ msgstr "Cool Plate / PLA Plate"
 
-#~ msgid "Step 1, please confirm Bambu Studio and your printer are in the same LAN."
-#~ msgstr "1. lépés: Ellenőrizd, hogy a Bambu Studio és a nyomtató ugyanazon a helyi hálózaton van."
+#~ msgid "Step 1, please confirm Bambu Hui and your printer are in the same LAN."
+#~ msgstr "1. lépés: Ellenőrizd, hogy a Bambu Hui és a nyomtató ugyanazon a helyi hálózaton van."
 
 #~ msgid "Step 2, if the IP and Access Code below are different from the actual values on your printer, please correct them."
 #~ msgstr "2. lépés: Ha az alábbi IP és hozzáférési kód eltér a nyomtatón láthatótól, kérjük, javítsd ki őket."
@@ -18872,7 +18872,7 @@ msgstr ""
 #~ msgid "Stopped."
 #~ msgstr "Megállítva."
 
-#~ msgid "\"Fix Model\" feature is currently only on Windows. Please repair the model on Bambu Studio(windows) or CAD softwares."
+#~ msgid "\"Fix Model\" feature is currently only on Windows. Please repair the model on Bambu Hui(windows) or CAD softwares."
 #~ msgstr "A „Modelljavítás” funkció jelenleg csak Windows rendszeren érhető el. Javítsd meg a modellt a Bambu Studióban (Windows) vagy más CAD szoftverben."
 
 #~ msgid ""
@@ -19221,8 +19221,8 @@ msgstr ""
 #~ msgid "Can't connect to the printer"
 #~ msgstr "Nem lehet csatlakozni a nyomtatóhoz"
 
-#~ msgid "Cannot detect the LAN IP address of %s. Are %s and Bambu Studio in the same LAN?"
-#~ msgstr "Nem sikerült észlelni %s LAN IP-címét. Biztos, hogy %s és a Bambu Studio ugyanazon a hálózaton vannak?"
+#~ msgid "Cannot detect the LAN IP address of %s. Are %s and Bambu Hui in the same LAN?"
+#~ msgstr "Nem sikerült észlelni %s LAN IP-címét. Biztos, hogy %s és a Bambu Hui ugyanazon a hálózaton vannak?"
 
 #~ msgid "Check cloud service status"
 #~ msgstr "Ellenőrizd a felhőszolgáltatás állapotát"
@@ -20368,8 +20368,8 @@ msgstr ""
 #~ msgid "Storage unavailable, insert SD card."
 #~ msgstr "A tárhely nem elérhető; kérjük helyezz be egy MicroSD-kártyát."
 
-#~ msgid "Studio would re-calculate your flushing volumes everytime the filaments color changed. You could disable the auto-calculate in Bambu Studio > Preferences"
-#~ msgstr "Studio will re-calculate your flushing volumes every time the filament color changes. You can disable auto-calculate in Bambu Studio > Preferences"
+#~ msgid "Studio would re-calculate your flushing volumes everytime the filaments color changed. You could disable the auto-calculate in Bambu Hui > Preferences"
+#~ msgstr "Studio will re-calculate your flushing volumes every time the filament color changes. You can disable auto-calculate in Bambu Hui > Preferences"
 
 #~ msgid ""
 #~ "Style and shape of the support. For normal support, projecting the supports into a regular grid will create more stable supports (default), while snug support towers will save material and reduce object scarring.\n"
@@ -20510,7 +20510,7 @@ msgstr ""
 #~ msgid "The P1P printer does not support smooth timelapse, use traditional timelapse instead."
 #~ msgstr "A P1P nyomtató nem támogatja a sima timelapse funkciót, használd helyette a hagyományos timelapse lehetőséget."
 
-#~ msgid "The .gcode.3mf file contains no G-code data.Please slice it whthBambu Studio and export a new .gcode.3mf file."
+#~ msgid "The .gcode.3mf file contains no G-code data.Please slice it whthBambu Hui and export a new .gcode.3mf file."
 #~ msgstr "A .gcode.3mf fájl nem tartalmaz G-kód adatokat. Kérjük, szeleteld újra a Bambu Studióval, és exportálj egy új .gcode.3mf fájlt."
 
 #~ msgid "The average diatance between the random points introducded on each line segment"
@@ -20573,8 +20573,8 @@ msgstr ""
 #~ msgid "The target object contains only one part and can not be splited."
 #~ msgstr "A kijelölt objektum csak egy tárgyat tartalmaz, ezért nem lehet tovább bontani."
 
-#~ msgid "The version of Bambu studio is too low and needs to be updated to the latest version before it can be used normally"
-#~ msgstr "A Bambu Studio ezen verziója túl régi és a legfrissebb verzióra kell frissíteni, mielőtt rendesen használható lenne"
+#~ msgid "The version of Bambu Hui is too low and needs to be updated to the latest version before it can be used normally"
+#~ msgstr "A Bambu Hui ezen verziója túl régi és a legfrissebb verzióra kell frissíteni, mielőtt rendesen használható lenne"
 
 #~ msgid ""
 #~ "There are currently no identical spare consumables available, and automatic replenishment is currently not possible. \n"
@@ -20583,7 +20583,7 @@ msgstr ""
 #~ "Nincs azonos típusú tartalék filament, így az automatikus utántöltés nem lehetséges.\n"
 #~ "(Jelenleg csak azonos márkájú, anyagtípusú és színű filamentek esetén érhető el az automatikus utántöltés.)"
 
-#~ msgid "There are some unknown filaments mapped to generic preset. Please update Bambu Studio or restart Bambu Studio to check if there is an update to system presets."
+#~ msgid "There are some unknown filaments mapped to generic preset. Please update Bambu Hui or restart Bambu Hui to check if there is an update to system presets."
 #~ msgstr "Van néhány ismeretlen filament, amelyekhez általános beállítások vannak hozzárendelve. Kérjük, frissítsd a Bambu Studiót vagy indítsd újra, hogy letöltsd az esetlegesen elérhető frissített rendszerbeállításokat."
 
 #~ msgid "There is already a historical calibration result with the same name: %s. Only one of the results with the same name is saved. Are you sure you want to overrides the historical result?"
@@ -20633,7 +20633,7 @@ msgstr ""
 #~ msgid ""
 #~ "This slicer file version %s is newer than %s's version.\n"
 #~ "\n"
-#~ "Would you like to update your Bambu Studio software to enable all functionality in this slicer file?"
+#~ "Would you like to update your Bambu Hui software to enable all functionality in this slicer file?"
 #~ msgstr ""
 #~ "A szeletelőfájl verziója %s, ami újabb, mint %s.\n"
 #~ "\n"
@@ -20764,7 +20764,7 @@ msgstr ""
 #~ msgid "Whenever the retraction is done, the nozzle is lifted a little to create clearance between nozzle and the print. It prevents nozzle from hitting the print when travel move. Using spiral line to lift z can prevent stringing"
 #~ msgstr "Visszahúzáskor a fúvóka felemelkedik, hogy a fúvóka és a nyomtatott tárgy között rés keletkezzen. Ez megakadályozza, hogy a fúvóka mozgás közben a tárgynak ütközzön. A Z-tengely emelésekor használt körkörös mozgás megelőzheti a szálazást."
 
-#~ msgid "Would you like to update your Bambu Studio software to enable all functionality in this slicer file?\n"
+#~ msgid "Would you like to update your Bambu Hui software to enable all functionality in this slicer file?\n"
 #~ msgstr "Szeretnéd frissíteni Bambu Studiót, hogy elérd a szeletelőfájl összes funkcióját?\n"
 
 #~ msgid "Wrong Access code"
@@ -20927,7 +20927,7 @@ msgstr ""
 #~ msgid "tree"
 #~ msgstr "fa"
 
-#~ msgid "you can always update Bambu Studio at your convenience. The slicer file will now be loaded without full functionality."
+#~ msgid "you can always update Bambu Hui at your convenience. The slicer file will now be loaded without full functionality."
 #~ msgstr "A Bambu Studiót bármikor frissítheted. A szeletelőfájl teljes funkcionalitás nélkül töltődik be."
 
 #~ msgid "⌘+Any arrow"
