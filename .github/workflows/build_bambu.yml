@@ -19,18 +19,18 @@ jobs:
     name: Build BambuStudio
     runs-on: ${{ inputs.os }}
     env:
-      date: ""
-      ver: ""
-      ver_pure: ""
+      date:
+      ver:
+      ver_pure:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
-          lfs: true
+          lfs: 'true'
 
-      - name: Load cached deps
-        uses: actions/cache@v4
+      - name: load cached deps
+        uses: actions/cache@v5
         with:
           path: ${{ inputs.cache-path }}
           key: ${{ inputs.cache-key }}
@@ -38,28 +38,28 @@ jobs:
 
       - name: Get the version and date on Ubuntu and macOS
         if: inputs.os != 'windows-latest'
-        shell: bash
         run: |
           ver_pure=$(grep 'set(SLIC3R_VERSION' version.inc | cut -d '"' -f2)
           if [[ "${{ github.event_name }}" == "pull_request" ]]; then
             ver="PR-${{ github.event.number }}"
           else
-            ver="V$ver_pure"
+            ver=V$ver_pure
           fi
-          echo "ver=$ver" >> "$GITHUB_ENV"
-          echo "ver_pure=$ver_pure" >> "$GITHUB_ENV"
-          echo "date=$(date +'%Y%m%d')" >> "$GITHUB_ENV"
+          echo "ver=$ver" >> $GITHUB_ENV
+          echo "ver_pure=$ver_pure" >> $GITHUB_ENV
+          echo "date=$(date +'%Y%m%d')" >> $GITHUB_ENV
+        shell: bash
 
       - name: Get the version and date on Windows
         if: inputs.os == 'windows-latest'
-        shell: pwsh
         run: |
           $date = Get-Date -Format 'yyyyMMdd'
+          $ref = "${{ github.ref }}"
           $eventName = "${{ github.event_name }}"
           $prNumber = "${{ github.event.number }}"
 
           if ($eventName -eq 'pull_request') {
-              $ver = "PR-$prNumber"
+              $ver = "PR" + $prNumber
           } else {
               $versionContent = Get-Content version.inc -Raw
               if ($versionContent -match 'set\(SLIC3R_VERSION "(.*?)"\)') {
@@ -68,11 +68,13 @@ jobs:
               $ver = "V$ver"
           }
 
-          "ver=$ver" | Out-File -Append -FilePath $env:GITHUB_ENV -Encoding utf8
-          "date=$date" | Out-File -Append -FilePath $env:GITHUB_ENV -Encoding utf8
+          echo "ver=$ver" | Out-File -Append -FilePath $env:GITHUB_ENV -Encoding utf8
+          echo "date=$date" | Out-File -Append -FilePath $env:GITHUB_ENV -Encoding utf8
+          echo "date: ${{ env.date }} version: ${{ env.ver }}"
+        shell: pwsh
 
-      # macOS Intel
-      - name: Build slicer mac intel
+  #   Mac
+      - name: Build slicer mac
         if: inputs.os == 'macos-15-intel'
         working-directory: ${{ github.workspace }}
         run: |
@@ -85,8 +87,7 @@ jobs:
           brew pin cmake@3.31.0
           ./BuildMac.sh -s -x -a x86_64 -t 10.15 -1
 
-      # macOS Universal
-      - name: Build slicer mac universal
+      - name: Build slicer mac
         if: inputs.os == 'macos-15'
         working-directory: ${{ github.workspace }}
         run: |
@@ -99,47 +100,44 @@ jobs:
           brew pin cmake@3.31.0
           ./BuildMac.sh -s -x -a universal -t 10.15 -1
 
-      - name: Pack mac app
+      - name: pack mac app
         if: github.ref != 'refs/heads/main' && (inputs.os == 'macos-15-intel' || inputs.os == 'macos-15')
         working-directory: ${{ github.workspace }}
-        run: zip -r BambuStudio_Mac_${{ inputs.arch }}_${{ env.ver }}.zip ${{ github.workspace }}/build
+        run: zip -r BambuStudio_Mac_${{inputs.arch}}_${{ env.ver }}.zip ${{ github.workspace }}/build
 
       - name: Upload artifacts mac
         if: inputs.os == 'macos-15-intel' || inputs.os == 'macos-15'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
-          name: BambuStudio_Mac_${{ inputs.arch }}_${{ env.ver }}
-          path: ${{ github.workspace }}/BambuStudio_Mac_${{ inputs.arch }}_${{ env.ver }}.zip
+          name: BambuStudio_Mac_${{inputs.arch}}_${{ env.ver }}
+          path: ${{ github.workspace }}/BambuStudio_Mac_${{inputs.arch}}_${{ env.ver }}.zip
 
-      # Windows
-      - name: Setup MSVC
+  # Windows
+      - name: setup MSVC
         if: inputs.os == 'windows-latest'
         uses: microsoft/setup-msbuild@v2
 
       - name: Install nsis and pkgconfig
         if: inputs.os == 'windows-latest'
-        shell: pwsh
         run: |
           dir "C:/Program Files (x86)/Windows Kits/10/Include"
-          choco install nsis -y
-          choco install pkgconfiglite -y
+          choco install nsis
+          choco install pkgconfiglite
 
       - name: Build slicer Win
         if: inputs.os == 'windows-latest'
         working-directory: ${{ github.workspace }}
-        shell: pwsh
         run: |
           mkdir build
           cd build
           cmake .. -G "Visual Studio 17 2022" -A X64 -DBBL_RELEASE_TO_PUBLIC=1 -DBBL_INTERNAL_TESTING=0 -DCMAKE_PREFIX_PATH="${{ github.workspace }}\deps\build\BambuStudio_dep\usr\local" -DCMAKE_INSTALL_PREFIX="../install-dir" -DCMAKE_BUILD_TYPE=Release -DWIN10SDK_PATH="C:/Program Files (x86)/Windows Kits/10/Include/10.0.22000.0"
           cmake --build . --target install --config Release -- -m
 
-      - name: Create installer Win
-        if: inputs.os == 'windows-latest'
-        working-directory: ${{ github.workspace }}/build
-        shell: pwsh
-        run: |
-          cpack -G NSIS
+      # - name: Create installer Win
+      #   if: inputs.os == 'windows-latest'
+      #   working-directory: ${{ github.workspace }}/build
+      #   run: |
+      #     cpack -G NSIS
 
       - name: Pack app
         if: inputs.os == 'windows-latest'
@@ -147,14 +145,21 @@ jobs:
         shell: cmd
         run: '"C:/Program Files/7-Zip/7z.exe" a -tzip BambuStudio_Windows_${{ env.ver }}_portable.zip ${{ github.workspace }}/install-dir'
 
+      # - name: Pack PDB
+      #   if: inputs.os == 'windows-latest'
+      #   working-directory: ${{ github.workspace }}/build/src/Release
+      #   shell: cmd
+      #   run: '"C:/Program Files/7-Zip/7z.exe" a -m0=lzma2 -mx9 Debug_PDB_${{ env.ver }}_for_developers_only.7z  *.pdb'
+
       - name: Upload artifacts Win zip
         if: inputs.os == 'windows-latest'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: BambuStudio_Windows_${{ env.ver }}_portable
           path: ${{ github.workspace }}/BambuStudio_Windows_${{ env.ver }}_portable.zip
 
-      # Ubuntu
+
+  # Ubuntu
       - name: Install dependencies from BuildLinux.sh
         if: inputs.os == 'ubuntu-22.04' || inputs.os == 'ubuntu-24.04'
         shell: bash
@@ -163,18 +168,49 @@ jobs:
       - name: Fix permissions
         if: inputs.os == 'ubuntu-22.04' || inputs.os == 'ubuntu-24.04'
         shell: bash
-        run: sudo chown "$USER" -R ./
+        run: sudo chown $USER -R ./
 
       - name: Build slicer
         if: inputs.os == 'ubuntu-22.04' || inputs.os == 'ubuntu-24.04'
         shell: bash
         run: |
           ./BuildLinux.sh -isfr
-          mv -n ./build/BambuStudio_ubu64.AppImage ./build/Bambu_Studio_${{ inputs.os }}_${{ env.ver }}.AppImage
+          mv -n ./build/BambuStudio_ubu64.AppImage ./build/Bambu_Studio_${{inputs.os}}_${{ env.ver }}.AppImage
+
+      # - name: Build orca_custom_preset_tests
+      #   if: github.ref == 'refs/heads/main' && inputs.os == 'ubuntu-22.04'
+      #   working-directory: ${{ github.workspace }}/build/src
+      #   shell: bash
+      #   run: |
+      #     ./OrcaSlicer_profile_validator -p ${{ github.workspace }}/resources/profiles -g 1
+      #     cd ${{ github.workspace }}/resources/profiles
+      #     zip -r orca_custom_preset_tests.zip user/
 
       - name: Upload artifacts Ubuntu
-        if: ${{ !env.ACT && (inputs.os == 'ubuntu-22.04' || inputs.os == 'ubuntu-24.04') }}
-        uses: actions/upload-artifact@v4
+        if: ${{ ! env.ACT && (inputs.os == 'ubuntu-22.04' || inputs.os == 'ubuntu-24.04') }}
+        uses: actions/upload-artifact@v6
         with:
-          name: BambuStudio_${{ inputs.os }}_${{ env.ver }}
-          path: ./build/Bambu_Studio_${{ inputs.os }}_${{ env.ver }}.AppImage
+          name: BambuStudio_${{inputs.os}}_${{ env.ver }}
+          path: './build/Bambu_Studio_${{inputs.os}}_${{ env.ver }}.AppImage'
+
+      # - name: Deploy Ubuntu release
+      #   if: ${{ ! env.ACT && github.ref == 'refs/heads/main' && inputs.os == 'ubuntu-22.04' }}
+      #   uses: WebFreak001/deploy-nightly@v3.2.0
+      #   with:
+      #     upload_url: https://uploads.github.com/repos/SoftFever/OrcaSlicer/releases/137995723/assets{?name,label}
+      #     release_id: 137995723
+      #     asset_path: ./build/OrcaSlicer_Linux_${{ env.ver }}.AppImage
+      #     asset_name: OrcaSlicer_Linux_${{ env.ver }}.AppImage
+      #     asset_content_type: application/octet-stream
+      #     max_releases: 1 # optional, if there are more releases than this matching the asset_name, the oldest ones are going to be deleted
+
+      # - name: Deploy orca_custom_preset_tests
+      #   if: ${{ ! env.ACT && github.ref == 'refs/heads/main' && inputs.os == 'ubuntu-22.04' }}
+      #   uses: WebFreak001/deploy-nightly@v3.2.0
+      #   with:
+      #     upload_url: https://uploads.github.com/repos/SoftFever/OrcaSlicer/releases/137995723/assets{?name,label}
+      #     release_id: 137995723
+      #     asset_path: ${{ github.workspace }}/resources/profiles/orca_custom_preset_tests.zip
+      #     asset_name: orca_custom_preset_tests.zip
+      #     asset_content_type: application/octet-stream
+      #     max_releases: 1
